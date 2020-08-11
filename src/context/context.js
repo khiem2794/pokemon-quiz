@@ -1,18 +1,26 @@
 import React, { useReducer } from "react"
 
-export const PokemonContext = React.createContext(initialState)
-
 const initialState = {
   team: [],
   player: null,
 }
 
+export const PokemonContext = React.createContext(initialState)
+
+const REGISTER_PLAYER = "REGISTER_PLAYER"
 const ADD_POKEMON = "ADD_POKEMON"
 const REMOVE_POKEMON = "REMOVE_POKEMON"
+const START_QUIZ = "START_QUIZ"
+
 const reducer = (state, action) => {
+  if (action.type === REGISTER_PLAYER) {
+    return { ...state, player: action.payload.playerData }
+  }
+
   if (action.type === ADD_POKEMON) {
     return { ...state, team: state.team.concat(action.payload.pokemonData) }
   }
+
   if (action.type === REMOVE_POKEMON) {
     return {
       ...state,
@@ -21,10 +29,24 @@ const reducer = (state, action) => {
       ),
     }
   }
+
+  if (action.type === START_QUIZ) {
+    console.log(START_QUIZ)
+    return { ...state }
+  }
 }
 
 const PokemonContextProvider = ({ children }) => {
   const [pokemonState, dispatch] = useReducer(reducer, initialState)
+
+  const registerPlayer = playerData => {
+    dispatch({
+      type: REGISTER_PLAYER,
+      payload: {
+        playerData: playerData,
+      },
+    })
+  }
 
   const addPokemon = pokemonData => {
     dispatch({
@@ -34,6 +56,7 @@ const PokemonContextProvider = ({ children }) => {
       },
     })
   }
+
   const removePokemon = pokemonData => {
     dispatch({
       type: REMOVE_POKEMON,
@@ -42,7 +65,21 @@ const PokemonContextProvider = ({ children }) => {
       },
     })
   }
-  const value = { pokemonState, addPokemon, removePokemon }
+
+  const startQuiz = () => {
+    dispatch({
+      type: START_QUIZ,
+      payload: {},
+    })
+  }
+
+  const value = {
+    pokemonState,
+    addPokemon,
+    removePokemon,
+    registerPlayer,
+    startQuiz,
+  }
   return (
     <PokemonContext.Provider value={value}>{children}</PokemonContext.Provider>
   )

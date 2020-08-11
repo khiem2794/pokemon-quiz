@@ -3,7 +3,7 @@ exports.data = [
     generation: "generation-i",
     pokemonData: [
       {
-        id: 1,
+        index: 1,
         name: "bulbasaur",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
@@ -19,7 +19,7 @@ exports.data = [
         ],
       },
       {
-        id: 4,
+        index: 4,
         name: "charmander",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
@@ -31,7 +31,7 @@ exports.data = [
         ],
       },
       {
-        id: 7,
+        index: 7,
         name: "squirtle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
@@ -43,7 +43,7 @@ exports.data = [
         ],
       },
       {
-        id: 10,
+        index: 10,
         name: "caterpie",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
@@ -55,7 +55,7 @@ exports.data = [
         ],
       },
       {
-        id: 13,
+        index: 13,
         name: "weedle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
@@ -71,7 +71,7 @@ exports.data = [
         ],
       },
       {
-        id: 16,
+        index: 16,
         name: "pidgey",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
@@ -87,7 +87,7 @@ exports.data = [
         ],
       },
       {
-        id: 19,
+        index: 19,
         name: "rattata",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
@@ -99,7 +99,7 @@ exports.data = [
         ],
       },
       {
-        id: 21,
+        index: 21,
         name: "spearow",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
@@ -115,7 +115,7 @@ exports.data = [
         ],
       },
       {
-        id: 23,
+        index: 23,
         name: "ekans",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
@@ -127,7 +127,7 @@ exports.data = [
         ],
       },
       {
-        id: 27,
+        index: 27,
         name: "sandshrew",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
@@ -139,7 +139,7 @@ exports.data = [
         ],
       },
       {
-        id: 29,
+        index: 29,
         name: "nidoran-f",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
@@ -151,7 +151,7 @@ exports.data = [
         ],
       },
       {
-        id: 32,
+        index: 32,
         name: "nidoran-m",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
@@ -163,7 +163,7 @@ exports.data = [
         ],
       },
       {
-        id: 37,
+        index: 37,
         name: "vulpix",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
@@ -175,7 +175,7 @@ exports.data = [
         ],
       },
       {
-        id: 41,
+        index: 41,
         name: "zubat",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
@@ -191,7 +191,7 @@ exports.data = [
         ],
       },
       {
-        id: 43,
+        index: 43,
         name: "oddish",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
@@ -207,7 +207,7 @@ exports.data = [
         ],
       },
       {
-        id: 46,
+        index: 46,
         name: "paras",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
@@ -223,7 +223,7 @@ exports.data = [
         ],
       },
       {
-        id: 48,
+        index: 48,
         name: "venonat",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
@@ -239,7 +239,7 @@ exports.data = [
         ],
       },
       {
-        id: 50,
+        index: 50,
         name: "diglett",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
@@ -251,7 +251,7 @@ exports.data = [
         ],
       },
       {
-        id: 52,
+        index: 52,
         name: "meowth",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
@@ -263,7 +263,7 @@ exports.data = [
         ],
       },
       {
-        id: 54,
+        index: 54,
         name: "psyduck",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
@@ -275,7 +275,7 @@ exports.data = [
         ],
       },
       {
-        id: 56,
+        index: 56,
         name: "mankey",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
@@ -290,7 +290,7 @@ exports.data = [
         ],
       },
       {
-        id: 58,
+        index: 58,
         name: "growlithe",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
@@ -302,7 +302,7 @@ exports.data = [
         ],
       },
       {
-        id: 60,
+        index: 60,
         name: "poliwag",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
@@ -314,7 +314,7 @@ exports.data = [
         ],
       },
       {
-        id: 63,
+        index: 63,
         name: "abra",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
@@ -329,7 +329,7 @@ exports.data = [
         ],
       },
       {
-        id: 66,
+        index: 66,
         name: "machop",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
@@ -344,7 +344,7 @@ exports.data = [
         ],
       },
       {
-        id: 69,
+        index: 69,
         name: "bellsprout",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
@@ -360,7 +360,7 @@ exports.data = [
         ],
       },
       {
-        id: 72,
+        index: 72,
         name: "tentacool",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
@@ -376,7 +376,7 @@ exports.data = [
         ],
       },
       {
-        id: 74,
+        index: 74,
         name: "geodude",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
@@ -392,7 +392,7 @@ exports.data = [
         ],
       },
       {
-        id: 77,
+        index: 77,
         name: "ponyta",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
@@ -404,7 +404,7 @@ exports.data = [
         ],
       },
       {
-        id: 3,
+        index: 3,
         name: "venusaur",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
@@ -420,7 +420,7 @@ exports.data = [
         ],
       },
       {
-        id: 5,
+        index: 5,
         name: "charmeleon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
@@ -432,7 +432,7 @@ exports.data = [
         ],
       },
       {
-        id: 6,
+        index: 6,
         name: "charizard",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
@@ -448,7 +448,7 @@ exports.data = [
         ],
       },
       {
-        id: 8,
+        index: 8,
         name: "wartortle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
@@ -460,7 +460,7 @@ exports.data = [
         ],
       },
       {
-        id: 9,
+        index: 9,
         name: "blastoise",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
@@ -472,7 +472,7 @@ exports.data = [
         ],
       },
       {
-        id: 11,
+        index: 11,
         name: "metapod",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
@@ -484,7 +484,7 @@ exports.data = [
         ],
       },
       {
-        id: 12,
+        index: 12,
         name: "butterfree",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
@@ -500,7 +500,7 @@ exports.data = [
         ],
       },
       {
-        id: 14,
+        index: 14,
         name: "kakuna",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
@@ -516,7 +516,7 @@ exports.data = [
         ],
       },
       {
-        id: 15,
+        index: 15,
         name: "beedrill",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
@@ -532,7 +532,7 @@ exports.data = [
         ],
       },
       {
-        id: 17,
+        index: 17,
         name: "pidgeotto",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
@@ -548,7 +548,7 @@ exports.data = [
         ],
       },
       {
-        id: 18,
+        index: 18,
         name: "pidgeot",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
@@ -564,7 +564,7 @@ exports.data = [
         ],
       },
       {
-        id: 20,
+        index: 20,
         name: "raticate",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
@@ -576,7 +576,7 @@ exports.data = [
         ],
       },
       {
-        id: 22,
+        index: 22,
         name: "fearow",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
@@ -592,7 +592,7 @@ exports.data = [
         ],
       },
       {
-        id: 24,
+        index: 24,
         name: "arbok",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
@@ -604,7 +604,7 @@ exports.data = [
         ],
       },
       {
-        id: 25,
+        index: 25,
         name: "pikachu",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
@@ -619,7 +619,7 @@ exports.data = [
         ],
       },
       {
-        id: 26,
+        index: 26,
         name: "raichu",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
@@ -634,7 +634,7 @@ exports.data = [
         ],
       },
       {
-        id: 28,
+        index: 28,
         name: "sandslash",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
@@ -646,7 +646,7 @@ exports.data = [
         ],
       },
       {
-        id: 30,
+        index: 30,
         name: "nidorina",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
@@ -658,7 +658,7 @@ exports.data = [
         ],
       },
       {
-        id: 31,
+        index: 31,
         name: "nidoqueen",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
@@ -674,7 +674,7 @@ exports.data = [
         ],
       },
       {
-        id: 33,
+        index: 33,
         name: "nidorino",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
@@ -686,7 +686,7 @@ exports.data = [
         ],
       },
       {
-        id: 34,
+        index: 34,
         name: "nidoking",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
@@ -702,7 +702,7 @@ exports.data = [
         ],
       },
       {
-        id: 35,
+        index: 35,
         name: "clefairy",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
@@ -714,7 +714,7 @@ exports.data = [
         ],
       },
       {
-        id: 36,
+        index: 36,
         name: "clefable",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
@@ -726,7 +726,7 @@ exports.data = [
         ],
       },
       {
-        id: 38,
+        index: 38,
         name: "ninetales",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
@@ -738,7 +738,7 @@ exports.data = [
         ],
       },
       {
-        id: 39,
+        index: 39,
         name: "jigglypuff",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
@@ -754,7 +754,7 @@ exports.data = [
         ],
       },
       {
-        id: 40,
+        index: 40,
         name: "wigglytuff",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
@@ -770,7 +770,7 @@ exports.data = [
         ],
       },
       {
-        id: 42,
+        index: 42,
         name: "golbat",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
@@ -786,7 +786,7 @@ exports.data = [
         ],
       },
       {
-        id: 44,
+        index: 44,
         name: "gloom",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
@@ -802,7 +802,7 @@ exports.data = [
         ],
       },
       {
-        id: 45,
+        index: 45,
         name: "vileplume",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
@@ -818,7 +818,7 @@ exports.data = [
         ],
       },
       {
-        id: 47,
+        index: 47,
         name: "parasect",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
@@ -834,7 +834,7 @@ exports.data = [
         ],
       },
       {
-        id: 49,
+        index: 49,
         name: "venomoth",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
@@ -850,7 +850,7 @@ exports.data = [
         ],
       },
       {
-        id: 51,
+        index: 51,
         name: "dugtrio",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
@@ -862,7 +862,7 @@ exports.data = [
         ],
       },
       {
-        id: 53,
+        index: 53,
         name: "persian",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
@@ -874,7 +874,7 @@ exports.data = [
         ],
       },
       {
-        id: 55,
+        index: 55,
         name: "golduck",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
@@ -886,7 +886,7 @@ exports.data = [
         ],
       },
       {
-        id: 57,
+        index: 57,
         name: "primeape",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
@@ -901,7 +901,7 @@ exports.data = [
         ],
       },
       {
-        id: 59,
+        index: 59,
         name: "arcanine",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
@@ -913,7 +913,7 @@ exports.data = [
         ],
       },
       {
-        id: 61,
+        index: 61,
         name: "poliwhirl",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
@@ -925,7 +925,7 @@ exports.data = [
         ],
       },
       {
-        id: 62,
+        index: 62,
         name: "poliwrath",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
@@ -944,7 +944,7 @@ exports.data = [
         ],
       },
       {
-        id: 64,
+        index: 64,
         name: "kadabra",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
@@ -959,7 +959,7 @@ exports.data = [
         ],
       },
       {
-        id: 65,
+        index: 65,
         name: "alakazam",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
@@ -974,7 +974,7 @@ exports.data = [
         ],
       },
       {
-        id: 67,
+        index: 67,
         name: "machoke",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
@@ -989,7 +989,7 @@ exports.data = [
         ],
       },
       {
-        id: 68,
+        index: 68,
         name: "machamp",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
@@ -1004,7 +1004,7 @@ exports.data = [
         ],
       },
       {
-        id: 70,
+        index: 70,
         name: "weepinbell",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
@@ -1020,7 +1020,7 @@ exports.data = [
         ],
       },
       {
-        id: 71,
+        index: 71,
         name: "victreebel",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
@@ -1036,7 +1036,7 @@ exports.data = [
         ],
       },
       {
-        id: 73,
+        index: 73,
         name: "tentacruel",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
@@ -1052,7 +1052,7 @@ exports.data = [
         ],
       },
       {
-        id: 75,
+        index: 75,
         name: "graveler",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
@@ -1068,7 +1068,7 @@ exports.data = [
         ],
       },
       {
-        id: 76,
+        index: 76,
         name: "golem",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
@@ -1084,7 +1084,7 @@ exports.data = [
         ],
       },
       {
-        id: 78,
+        index: 78,
         name: "rapidash",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
@@ -1096,7 +1096,7 @@ exports.data = [
         ],
       },
       {
-        id: 79,
+        index: 79,
         name: "slowpoke",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
@@ -1115,7 +1115,7 @@ exports.data = [
         ],
       },
       {
-        id: 81,
+        index: 81,
         name: "magnemite",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
@@ -1134,7 +1134,7 @@ exports.data = [
         ],
       },
       {
-        id: 83,
+        index: 83,
         name: "farfetchd",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
@@ -1150,7 +1150,7 @@ exports.data = [
         ],
       },
       {
-        id: 84,
+        index: 84,
         name: "doduo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
@@ -1166,7 +1166,7 @@ exports.data = [
         ],
       },
       {
-        id: 86,
+        index: 86,
         name: "seel",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
@@ -1178,7 +1178,7 @@ exports.data = [
         ],
       },
       {
-        id: 88,
+        index: 88,
         name: "grimer",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
@@ -1190,7 +1190,7 @@ exports.data = [
         ],
       },
       {
-        id: 90,
+        index: 90,
         name: "shellder",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
@@ -1202,7 +1202,7 @@ exports.data = [
         ],
       },
       {
-        id: 92,
+        index: 92,
         name: "gastly",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
@@ -1218,7 +1218,7 @@ exports.data = [
         ],
       },
       {
-        id: 95,
+        index: 95,
         name: "onix",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
@@ -1234,7 +1234,7 @@ exports.data = [
         ],
       },
       {
-        id: 96,
+        index: 96,
         name: "drowzee",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
@@ -1249,7 +1249,7 @@ exports.data = [
         ],
       },
       {
-        id: 98,
+        index: 98,
         name: "krabby",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
@@ -1261,7 +1261,7 @@ exports.data = [
         ],
       },
       {
-        id: 100,
+        index: 100,
         name: "voltorb",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
@@ -1276,7 +1276,7 @@ exports.data = [
         ],
       },
       {
-        id: 102,
+        index: 102,
         name: "exeggcute",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
@@ -1295,7 +1295,7 @@ exports.data = [
         ],
       },
       {
-        id: 104,
+        index: 104,
         name: "cubone",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
@@ -1307,7 +1307,7 @@ exports.data = [
         ],
       },
       {
-        id: 108,
+        index: 108,
         name: "lickitung",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
@@ -1319,7 +1319,7 @@ exports.data = [
         ],
       },
       {
-        id: 109,
+        index: 109,
         name: "koffing",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
@@ -1331,7 +1331,7 @@ exports.data = [
         ],
       },
       {
-        id: 111,
+        index: 111,
         name: "rhyhorn",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
@@ -1347,7 +1347,7 @@ exports.data = [
         ],
       },
       {
-        id: 114,
+        index: 114,
         name: "tangela",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
@@ -1359,7 +1359,7 @@ exports.data = [
         ],
       },
       {
-        id: 115,
+        index: 115,
         name: "kangaskhan",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
@@ -1371,7 +1371,7 @@ exports.data = [
         ],
       },
       {
-        id: 116,
+        index: 116,
         name: "horsea",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
@@ -1383,7 +1383,7 @@ exports.data = [
         ],
       },
       {
-        id: 118,
+        index: 118,
         name: "goldeen",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
@@ -1395,7 +1395,7 @@ exports.data = [
         ],
       },
       {
-        id: 120,
+        index: 120,
         name: "staryu",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
@@ -1407,7 +1407,7 @@ exports.data = [
         ],
       },
       {
-        id: 123,
+        index: 123,
         name: "scyther",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
@@ -1423,7 +1423,7 @@ exports.data = [
         ],
       },
       {
-        id: 127,
+        index: 127,
         name: "pinsir",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
@@ -1435,7 +1435,7 @@ exports.data = [
         ],
       },
       {
-        id: 128,
+        index: 128,
         name: "tauros",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
@@ -1447,7 +1447,7 @@ exports.data = [
         ],
       },
       {
-        id: 129,
+        index: 129,
         name: "magikarp",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
@@ -1459,7 +1459,7 @@ exports.data = [
         ],
       },
       {
-        id: 131,
+        index: 131,
         name: "lapras",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
@@ -1475,7 +1475,7 @@ exports.data = [
         ],
       },
       {
-        id: 132,
+        index: 132,
         name: "ditto",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
@@ -1487,7 +1487,7 @@ exports.data = [
         ],
       },
       {
-        id: 133,
+        index: 133,
         name: "eevee",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
@@ -1499,7 +1499,7 @@ exports.data = [
         ],
       },
       {
-        id: 137,
+        index: 137,
         name: "porygon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
@@ -1511,7 +1511,7 @@ exports.data = [
         ],
       },
       {
-        id: 138,
+        index: 138,
         name: "omanyte",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
@@ -1527,7 +1527,7 @@ exports.data = [
         ],
       },
       {
-        id: 140,
+        index: 140,
         name: "kabuto",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
@@ -1543,7 +1543,7 @@ exports.data = [
         ],
       },
       {
-        id: 142,
+        index: 142,
         name: "aerodactyl",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
@@ -1559,7 +1559,7 @@ exports.data = [
         ],
       },
       {
-        id: 144,
+        index: 144,
         name: "articuno",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
@@ -1575,7 +1575,7 @@ exports.data = [
         ],
       },
       {
-        id: 145,
+        index: 145,
         name: "zapdos",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
@@ -1594,7 +1594,7 @@ exports.data = [
         ],
       },
       {
-        id: 146,
+        index: 146,
         name: "moltres",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
@@ -1610,7 +1610,7 @@ exports.data = [
         ],
       },
       {
-        id: 147,
+        index: 147,
         name: "dratini",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
@@ -1622,7 +1622,7 @@ exports.data = [
         ],
       },
       {
-        id: 150,
+        index: 150,
         name: "mewtwo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
@@ -1637,7 +1637,7 @@ exports.data = [
         ],
       },
       {
-        id: 151,
+        index: 151,
         name: "mew",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
@@ -1652,7 +1652,7 @@ exports.data = [
         ],
       },
       {
-        id: 82,
+        index: 82,
         name: "magneton",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
@@ -1671,7 +1671,7 @@ exports.data = [
         ],
       },
       {
-        id: 85,
+        index: 85,
         name: "dodrio",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
@@ -1687,7 +1687,7 @@ exports.data = [
         ],
       },
       {
-        id: 87,
+        index: 87,
         name: "dewgong",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
@@ -1703,7 +1703,7 @@ exports.data = [
         ],
       },
       {
-        id: 89,
+        index: 89,
         name: "muk",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
@@ -1715,7 +1715,7 @@ exports.data = [
         ],
       },
       {
-        id: 91,
+        index: 91,
         name: "cloyster",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
@@ -1731,7 +1731,7 @@ exports.data = [
         ],
       },
       {
-        id: 93,
+        index: 93,
         name: "haunter",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
@@ -1747,7 +1747,7 @@ exports.data = [
         ],
       },
       {
-        id: 94,
+        index: 94,
         name: "gengar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
@@ -1763,7 +1763,7 @@ exports.data = [
         ],
       },
       {
-        id: 97,
+        index: 97,
         name: "hypno",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
@@ -1778,7 +1778,7 @@ exports.data = [
         ],
       },
       {
-        id: 99,
+        index: 99,
         name: "kingler",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
@@ -1790,7 +1790,7 @@ exports.data = [
         ],
       },
       {
-        id: 101,
+        index: 101,
         name: "electrode",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
@@ -1805,7 +1805,7 @@ exports.data = [
         ],
       },
       {
-        id: 103,
+        index: 103,
         name: "exeggutor",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
@@ -1824,7 +1824,7 @@ exports.data = [
         ],
       },
       {
-        id: 105,
+        index: 105,
         name: "marowak",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
@@ -1836,7 +1836,7 @@ exports.data = [
         ],
       },
       {
-        id: 106,
+        index: 106,
         name: "hitmonlee",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
@@ -1851,7 +1851,7 @@ exports.data = [
         ],
       },
       {
-        id: 107,
+        index: 107,
         name: "hitmonchan",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
@@ -1866,7 +1866,7 @@ exports.data = [
         ],
       },
       {
-        id: 110,
+        index: 110,
         name: "weezing",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
@@ -1878,7 +1878,7 @@ exports.data = [
         ],
       },
       {
-        id: 112,
+        index: 112,
         name: "rhydon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
@@ -1894,7 +1894,7 @@ exports.data = [
         ],
       },
       {
-        id: 113,
+        index: 113,
         name: "chansey",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
@@ -1906,7 +1906,7 @@ exports.data = [
         ],
       },
       {
-        id: 117,
+        index: 117,
         name: "seadra",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
@@ -1918,7 +1918,7 @@ exports.data = [
         ],
       },
       {
-        id: 119,
+        index: 119,
         name: "seaking",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
@@ -1930,7 +1930,7 @@ exports.data = [
         ],
       },
       {
-        id: 121,
+        index: 121,
         name: "starmie",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
@@ -1949,7 +1949,7 @@ exports.data = [
         ],
       },
       {
-        id: 122,
+        index: 122,
         name: "mr-mime",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
@@ -1968,7 +1968,7 @@ exports.data = [
         ],
       },
       {
-        id: 124,
+        index: 124,
         name: "jynx",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
@@ -1987,7 +1987,7 @@ exports.data = [
         ],
       },
       {
-        id: 125,
+        index: 125,
         name: "electabuzz",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
@@ -2002,7 +2002,7 @@ exports.data = [
         ],
       },
       {
-        id: 126,
+        index: 126,
         name: "magmar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
@@ -2014,7 +2014,7 @@ exports.data = [
         ],
       },
       {
-        id: 130,
+        index: 130,
         name: "gyarados",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
@@ -2030,7 +2030,7 @@ exports.data = [
         ],
       },
       {
-        id: 134,
+        index: 134,
         name: "vaporeon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
@@ -2042,7 +2042,7 @@ exports.data = [
         ],
       },
       {
-        id: 135,
+        index: 135,
         name: "jolteon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
@@ -2057,7 +2057,7 @@ exports.data = [
         ],
       },
       {
-        id: 136,
+        index: 136,
         name: "flareon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
@@ -2069,7 +2069,7 @@ exports.data = [
         ],
       },
       {
-        id: 139,
+        index: 139,
         name: "omastar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
@@ -2085,7 +2085,7 @@ exports.data = [
         ],
       },
       {
-        id: 141,
+        index: 141,
         name: "kabutops",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
@@ -2101,7 +2101,7 @@ exports.data = [
         ],
       },
       {
-        id: 143,
+        index: 143,
         name: "snorlax",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
@@ -2113,7 +2113,7 @@ exports.data = [
         ],
       },
       {
-        id: 148,
+        index: 148,
         name: "dragonair",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
@@ -2125,7 +2125,7 @@ exports.data = [
         ],
       },
       {
-        id: 149,
+        index: 149,
         name: "dragonite",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
@@ -2141,7 +2141,7 @@ exports.data = [
         ],
       },
       {
-        id: 2,
+        index: 2,
         name: "ivysaur",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
@@ -2157,7 +2157,7 @@ exports.data = [
         ],
       },
       {
-        id: 80,
+        index: 80,
         name: "slowbro",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
@@ -2181,7 +2181,7 @@ exports.data = [
     generation: "generation-ii",
     pokemonData: [
       {
-        id: 152,
+        index: 152,
         name: "chikorita",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
@@ -2193,7 +2193,7 @@ exports.data = [
         ],
       },
       {
-        id: 155,
+        index: 155,
         name: "cyndaquil",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
@@ -2205,7 +2205,7 @@ exports.data = [
         ],
       },
       {
-        id: 153,
+        index: 153,
         name: "bayleef",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
@@ -2217,7 +2217,7 @@ exports.data = [
         ],
       },
       {
-        id: 154,
+        index: 154,
         name: "meganium",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png",
@@ -2229,7 +2229,7 @@ exports.data = [
         ],
       },
       {
-        id: 156,
+        index: 156,
         name: "quilava",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png",
@@ -2241,7 +2241,7 @@ exports.data = [
         ],
       },
       {
-        id: 157,
+        index: 157,
         name: "typhlosion",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
@@ -2253,7 +2253,7 @@ exports.data = [
         ],
       },
       {
-        id: 158,
+        index: 158,
         name: "totodile",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
@@ -2265,7 +2265,7 @@ exports.data = [
         ],
       },
       {
-        id: 161,
+        index: 161,
         name: "sentret",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
@@ -2277,7 +2277,7 @@ exports.data = [
         ],
       },
       {
-        id: 163,
+        index: 163,
         name: "hoothoot",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
@@ -2293,7 +2293,7 @@ exports.data = [
         ],
       },
       {
-        id: 165,
+        index: 165,
         name: "ledyba",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png",
@@ -2309,7 +2309,7 @@ exports.data = [
         ],
       },
       {
-        id: 167,
+        index: 167,
         name: "spinarak",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
@@ -2325,7 +2325,7 @@ exports.data = [
         ],
       },
       {
-        id: 170,
+        index: 170,
         name: "chinchou",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png",
@@ -2344,7 +2344,7 @@ exports.data = [
         ],
       },
       {
-        id: 172,
+        index: 172,
         name: "pichu",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
@@ -2359,7 +2359,7 @@ exports.data = [
         ],
       },
       {
-        id: 173,
+        index: 173,
         name: "cleffa",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
@@ -2371,7 +2371,7 @@ exports.data = [
         ],
       },
       {
-        id: 174,
+        index: 174,
         name: "igglybuff",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
@@ -2387,7 +2387,7 @@ exports.data = [
         ],
       },
       {
-        id: 175,
+        index: 175,
         name: "togepi",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
@@ -2399,7 +2399,7 @@ exports.data = [
         ],
       },
       {
-        id: 177,
+        index: 177,
         name: "natu",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/177.png",
@@ -2418,7 +2418,7 @@ exports.data = [
         ],
       },
       {
-        id: 179,
+        index: 179,
         name: "mareep",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png",
@@ -2433,7 +2433,7 @@ exports.data = [
         ],
       },
       {
-        id: 187,
+        index: 187,
         name: "hoppip",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png",
@@ -2449,7 +2449,7 @@ exports.data = [
         ],
       },
       {
-        id: 190,
+        index: 190,
         name: "aipom",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
@@ -2461,7 +2461,7 @@ exports.data = [
         ],
       },
       {
-        id: 191,
+        index: 191,
         name: "sunkern",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png",
@@ -2473,7 +2473,7 @@ exports.data = [
         ],
       },
       {
-        id: 193,
+        index: 193,
         name: "yanma",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
@@ -2489,7 +2489,7 @@ exports.data = [
         ],
       },
       {
-        id: 194,
+        index: 194,
         name: "wooper",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
@@ -2505,7 +2505,7 @@ exports.data = [
         ],
       },
       {
-        id: 198,
+        index: 198,
         name: "murkrow",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
@@ -2521,7 +2521,7 @@ exports.data = [
         ],
       },
       {
-        id: 200,
+        index: 200,
         name: "misdreavus",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
@@ -2533,7 +2533,7 @@ exports.data = [
         ],
       },
       {
-        id: 201,
+        index: 201,
         name: "unown",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png",
@@ -2548,7 +2548,7 @@ exports.data = [
         ],
       },
       {
-        id: 203,
+        index: 203,
         name: "girafarig",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
@@ -2567,7 +2567,7 @@ exports.data = [
         ],
       },
       {
-        id: 204,
+        index: 204,
         name: "pineco",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png",
@@ -2579,7 +2579,7 @@ exports.data = [
         ],
       },
       {
-        id: 206,
+        index: 206,
         name: "dunsparce",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png",
@@ -2591,7 +2591,7 @@ exports.data = [
         ],
       },
       {
-        id: 207,
+        index: 207,
         name: "gligar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png",
@@ -2607,7 +2607,7 @@ exports.data = [
         ],
       },
       {
-        id: 209,
+        index: 209,
         name: "snubbull",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png",
@@ -2619,7 +2619,7 @@ exports.data = [
         ],
       },
       {
-        id: 211,
+        index: 211,
         name: "qwilfish",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png",
@@ -2635,7 +2635,7 @@ exports.data = [
         ],
       },
       {
-        id: 213,
+        index: 213,
         name: "shuckle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
@@ -2651,7 +2651,7 @@ exports.data = [
         ],
       },
       {
-        id: 214,
+        index: 214,
         name: "heracross",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
@@ -2670,7 +2670,7 @@ exports.data = [
         ],
       },
       {
-        id: 215,
+        index: 215,
         name: "sneasel",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
@@ -2686,7 +2686,7 @@ exports.data = [
         ],
       },
       {
-        id: 216,
+        index: 216,
         name: "teddiursa",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png",
@@ -2698,7 +2698,7 @@ exports.data = [
         ],
       },
       {
-        id: 218,
+        index: 218,
         name: "slugma",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png",
@@ -2710,7 +2710,7 @@ exports.data = [
         ],
       },
       {
-        id: 220,
+        index: 220,
         name: "swinub",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png",
@@ -2726,7 +2726,7 @@ exports.data = [
         ],
       },
       {
-        id: 222,
+        index: 222,
         name: "corsola",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png",
@@ -2742,7 +2742,7 @@ exports.data = [
         ],
       },
       {
-        id: 223,
+        index: 223,
         name: "remoraid",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
@@ -2754,7 +2754,7 @@ exports.data = [
         ],
       },
       {
-        id: 225,
+        index: 225,
         name: "delibird",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png",
@@ -2770,7 +2770,7 @@ exports.data = [
         ],
       },
       {
-        id: 227,
+        index: 227,
         name: "skarmory",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png",
@@ -2786,7 +2786,7 @@ exports.data = [
         ],
       },
       {
-        id: 228,
+        index: 228,
         name: "houndour",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
@@ -2802,7 +2802,7 @@ exports.data = [
         ],
       },
       {
-        id: 231,
+        index: 231,
         name: "phanpy",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png",
@@ -2814,7 +2814,7 @@ exports.data = [
         ],
       },
       {
-        id: 234,
+        index: 234,
         name: "stantler",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png",
@@ -2826,7 +2826,7 @@ exports.data = [
         ],
       },
       {
-        id: 235,
+        index: 235,
         name: "smeargle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
@@ -2838,7 +2838,7 @@ exports.data = [
         ],
       },
       {
-        id: 160,
+        index: 160,
         name: "feraligatr",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png",
@@ -2850,7 +2850,7 @@ exports.data = [
         ],
       },
       {
-        id: 162,
+        index: 162,
         name: "furret",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png",
@@ -2862,7 +2862,7 @@ exports.data = [
         ],
       },
       {
-        id: 164,
+        index: 164,
         name: "noctowl",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
@@ -2878,7 +2878,7 @@ exports.data = [
         ],
       },
       {
-        id: 166,
+        index: 166,
         name: "ledian",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png",
@@ -2894,7 +2894,7 @@ exports.data = [
         ],
       },
       {
-        id: 168,
+        index: 168,
         name: "ariados",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png",
@@ -2910,7 +2910,7 @@ exports.data = [
         ],
       },
       {
-        id: 169,
+        index: 169,
         name: "crobat",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
@@ -2926,7 +2926,7 @@ exports.data = [
         ],
       },
       {
-        id: 171,
+        index: 171,
         name: "lanturn",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png",
@@ -2945,7 +2945,7 @@ exports.data = [
         ],
       },
       {
-        id: 176,
+        index: 176,
         name: "togetic",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
@@ -2961,7 +2961,7 @@ exports.data = [
         ],
       },
       {
-        id: 178,
+        index: 178,
         name: "xatu",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png",
@@ -2980,7 +2980,7 @@ exports.data = [
         ],
       },
       {
-        id: 180,
+        index: 180,
         name: "flaaffy",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png",
@@ -2995,7 +2995,7 @@ exports.data = [
         ],
       },
       {
-        id: 181,
+        index: 181,
         name: "ampharos",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png",
@@ -3010,7 +3010,7 @@ exports.data = [
         ],
       },
       {
-        id: 182,
+        index: 182,
         name: "bellossom",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
@@ -3022,7 +3022,7 @@ exports.data = [
         ],
       },
       {
-        id: 183,
+        index: 183,
         name: "marill",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
@@ -3038,7 +3038,7 @@ exports.data = [
         ],
       },
       {
-        id: 184,
+        index: 184,
         name: "azumarill",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
@@ -3054,7 +3054,7 @@ exports.data = [
         ],
       },
       {
-        id: 185,
+        index: 185,
         name: "sudowoodo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
@@ -3066,7 +3066,7 @@ exports.data = [
         ],
       },
       {
-        id: 186,
+        index: 186,
         name: "politoed",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png",
@@ -3078,7 +3078,7 @@ exports.data = [
         ],
       },
       {
-        id: 188,
+        index: 188,
         name: "skiploom",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png",
@@ -3094,7 +3094,7 @@ exports.data = [
         ],
       },
       {
-        id: 189,
+        index: 189,
         name: "jumpluff",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png",
@@ -3110,7 +3110,7 @@ exports.data = [
         ],
       },
       {
-        id: 192,
+        index: 192,
         name: "sunflora",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
@@ -3122,7 +3122,7 @@ exports.data = [
         ],
       },
       {
-        id: 195,
+        index: 195,
         name: "quagsire",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
@@ -3138,7 +3138,7 @@ exports.data = [
         ],
       },
       {
-        id: 196,
+        index: 196,
         name: "espeon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
@@ -3153,7 +3153,7 @@ exports.data = [
         ],
       },
       {
-        id: 197,
+        index: 197,
         name: "umbreon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
@@ -3165,7 +3165,7 @@ exports.data = [
         ],
       },
       {
-        id: 199,
+        index: 199,
         name: "slowking",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png",
@@ -3184,7 +3184,7 @@ exports.data = [
         ],
       },
       {
-        id: 202,
+        index: 202,
         name: "wobbuffet",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png",
@@ -3199,7 +3199,7 @@ exports.data = [
         ],
       },
       {
-        id: 205,
+        index: 205,
         name: "forretress",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png",
@@ -3215,7 +3215,7 @@ exports.data = [
         ],
       },
       {
-        id: 208,
+        index: 208,
         name: "steelix",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
@@ -3231,7 +3231,7 @@ exports.data = [
         ],
       },
       {
-        id: 210,
+        index: 210,
         name: "granbull",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png",
@@ -3243,7 +3243,7 @@ exports.data = [
         ],
       },
       {
-        id: 212,
+        index: 212,
         name: "scizor",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png",
@@ -3259,7 +3259,7 @@ exports.data = [
         ],
       },
       {
-        id: 217,
+        index: 217,
         name: "ursaring",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png",
@@ -3271,7 +3271,7 @@ exports.data = [
         ],
       },
       {
-        id: 219,
+        index: 219,
         name: "magcargo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png",
@@ -3287,7 +3287,7 @@ exports.data = [
         ],
       },
       {
-        id: 221,
+        index: 221,
         name: "piloswine",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png",
@@ -3303,7 +3303,7 @@ exports.data = [
         ],
       },
       {
-        id: 224,
+        index: 224,
         name: "octillery",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png",
@@ -3315,7 +3315,7 @@ exports.data = [
         ],
       },
       {
-        id: 226,
+        index: 226,
         name: "mantine",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png",
@@ -3331,7 +3331,7 @@ exports.data = [
         ],
       },
       {
-        id: 229,
+        index: 229,
         name: "houndoom",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
@@ -3347,7 +3347,7 @@ exports.data = [
         ],
       },
       {
-        id: 230,
+        index: 230,
         name: "kingdra",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png",
@@ -3363,7 +3363,7 @@ exports.data = [
         ],
       },
       {
-        id: 232,
+        index: 232,
         name: "donphan",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png",
@@ -3375,7 +3375,7 @@ exports.data = [
         ],
       },
       {
-        id: 233,
+        index: 233,
         name: "porygon2",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png",
@@ -3387,7 +3387,7 @@ exports.data = [
         ],
       },
       {
-        id: 236,
+        index: 236,
         name: "tyrogue",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png",
@@ -3402,7 +3402,7 @@ exports.data = [
         ],
       },
       {
-        id: 238,
+        index: 238,
         name: "smoochum",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png",
@@ -3421,7 +3421,7 @@ exports.data = [
         ],
       },
       {
-        id: 239,
+        index: 239,
         name: "elekid",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
@@ -3436,7 +3436,7 @@ exports.data = [
         ],
       },
       {
-        id: 240,
+        index: 240,
         name: "magby",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
@@ -3448,7 +3448,7 @@ exports.data = [
         ],
       },
       {
-        id: 241,
+        index: 241,
         name: "miltank",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png",
@@ -3460,7 +3460,7 @@ exports.data = [
         ],
       },
       {
-        id: 243,
+        index: 243,
         name: "raikou",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png",
@@ -3475,7 +3475,7 @@ exports.data = [
         ],
       },
       {
-        id: 244,
+        index: 244,
         name: "entei",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png",
@@ -3487,7 +3487,7 @@ exports.data = [
         ],
       },
       {
-        id: 245,
+        index: 245,
         name: "suicune",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png",
@@ -3499,7 +3499,7 @@ exports.data = [
         ],
       },
       {
-        id: 246,
+        index: 246,
         name: "larvitar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png",
@@ -3515,7 +3515,7 @@ exports.data = [
         ],
       },
       {
-        id: 249,
+        index: 249,
         name: "lugia",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
@@ -3534,7 +3534,7 @@ exports.data = [
         ],
       },
       {
-        id: 250,
+        index: 250,
         name: "ho-oh",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png",
@@ -3550,7 +3550,7 @@ exports.data = [
         ],
       },
       {
-        id: 251,
+        index: 251,
         name: "celebi",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png",
@@ -3569,7 +3569,7 @@ exports.data = [
         ],
       },
       {
-        id: 242,
+        index: 242,
         name: "blissey",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
@@ -3581,7 +3581,7 @@ exports.data = [
         ],
       },
       {
-        id: 247,
+        index: 247,
         name: "pupitar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png",
@@ -3597,7 +3597,7 @@ exports.data = [
         ],
       },
       {
-        id: 248,
+        index: 248,
         name: "tyranitar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png",
@@ -3613,7 +3613,7 @@ exports.data = [
         ],
       },
       {
-        id: 159,
+        index: 159,
         name: "croconaw",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png",
@@ -3625,7 +3625,7 @@ exports.data = [
         ],
       },
       {
-        id: 237,
+        index: 237,
         name: "hitmontop",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png",
@@ -3645,7 +3645,7 @@ exports.data = [
     generation: "generation-iii",
     pokemonData: [
       {
-        id: 252,
+        index: 252,
         name: "treecko",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
@@ -3657,7 +3657,7 @@ exports.data = [
         ],
       },
       {
-        id: 255,
+        index: 255,
         name: "torchic",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
@@ -3669,7 +3669,7 @@ exports.data = [
         ],
       },
       {
-        id: 258,
+        index: 258,
         name: "mudkip",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png",
@@ -3681,7 +3681,7 @@ exports.data = [
         ],
       },
       {
-        id: 261,
+        index: 261,
         name: "poochyena",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png",
@@ -3693,7 +3693,7 @@ exports.data = [
         ],
       },
       {
-        id: 263,
+        index: 263,
         name: "zigzagoon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png",
@@ -3705,7 +3705,7 @@ exports.data = [
         ],
       },
       {
-        id: 265,
+        index: 265,
         name: "wurmple",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
@@ -3717,7 +3717,7 @@ exports.data = [
         ],
       },
       {
-        id: 270,
+        index: 270,
         name: "lotad",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png",
@@ -3733,7 +3733,7 @@ exports.data = [
         ],
       },
       {
-        id: 273,
+        index: 273,
         name: "seedot",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png",
@@ -3745,7 +3745,7 @@ exports.data = [
         ],
       },
       {
-        id: 276,
+        index: 276,
         name: "taillow",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png",
@@ -3761,7 +3761,7 @@ exports.data = [
         ],
       },
       {
-        id: 278,
+        index: 278,
         name: "wingull",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
@@ -3777,7 +3777,7 @@ exports.data = [
         ],
       },
       {
-        id: 280,
+        index: 280,
         name: "ralts",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
@@ -3796,7 +3796,7 @@ exports.data = [
         ],
       },
       {
-        id: 283,
+        index: 283,
         name: "surskit",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png",
@@ -3812,7 +3812,7 @@ exports.data = [
         ],
       },
       {
-        id: 285,
+        index: 285,
         name: "shroomish",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png",
@@ -3824,7 +3824,7 @@ exports.data = [
         ],
       },
       {
-        id: 287,
+        index: 287,
         name: "slakoth",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png",
@@ -3836,7 +3836,7 @@ exports.data = [
         ],
       },
       {
-        id: 290,
+        index: 290,
         name: "nincada",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png",
@@ -3852,7 +3852,7 @@ exports.data = [
         ],
       },
       {
-        id: 293,
+        index: 293,
         name: "whismur",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png",
@@ -3864,7 +3864,7 @@ exports.data = [
         ],
       },
       {
-        id: 296,
+        index: 296,
         name: "makuhita",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png",
@@ -3879,7 +3879,7 @@ exports.data = [
         ],
       },
       {
-        id: 298,
+        index: 298,
         name: "azurill",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
@@ -3895,7 +3895,7 @@ exports.data = [
         ],
       },
       {
-        id: 299,
+        index: 299,
         name: "nosepass",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
@@ -3907,7 +3907,7 @@ exports.data = [
         ],
       },
       {
-        id: 300,
+        index: 300,
         name: "skitty",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png",
@@ -3919,7 +3919,7 @@ exports.data = [
         ],
       },
       {
-        id: 302,
+        index: 302,
         name: "sableye",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
@@ -3935,7 +3935,7 @@ exports.data = [
         ],
       },
       {
-        id: 303,
+        index: 303,
         name: "mawile",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
@@ -3951,7 +3951,7 @@ exports.data = [
         ],
       },
       {
-        id: 304,
+        index: 304,
         name: "aron",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png",
@@ -3967,7 +3967,7 @@ exports.data = [
         ],
       },
       {
-        id: 307,
+        index: 307,
         name: "meditite",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
@@ -3989,7 +3989,7 @@ exports.data = [
         ],
       },
       {
-        id: 309,
+        index: 309,
         name: "electrike",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png",
@@ -4004,7 +4004,7 @@ exports.data = [
         ],
       },
       {
-        id: 311,
+        index: 311,
         name: "plusle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/311.png",
@@ -4019,7 +4019,7 @@ exports.data = [
         ],
       },
       {
-        id: 312,
+        index: 312,
         name: "minun",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png",
@@ -4034,7 +4034,7 @@ exports.data = [
         ],
       },
       {
-        id: 313,
+        index: 313,
         name: "volbeat",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png",
@@ -4046,7 +4046,7 @@ exports.data = [
         ],
       },
       {
-        id: 314,
+        index: 314,
         name: "illumise",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png",
@@ -4058,7 +4058,7 @@ exports.data = [
         ],
       },
       {
-        id: 253,
+        index: 253,
         name: "grovyle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png",
@@ -4070,7 +4070,7 @@ exports.data = [
         ],
       },
       {
-        id: 254,
+        index: 254,
         name: "sceptile",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
@@ -4082,7 +4082,7 @@ exports.data = [
         ],
       },
       {
-        id: 256,
+        index: 256,
         name: "combusken",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png",
@@ -4101,7 +4101,7 @@ exports.data = [
         ],
       },
       {
-        id: 257,
+        index: 257,
         name: "blaziken",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png",
@@ -4120,7 +4120,7 @@ exports.data = [
         ],
       },
       {
-        id: 259,
+        index: 259,
         name: "marshtomp",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png",
@@ -4136,7 +4136,7 @@ exports.data = [
         ],
       },
       {
-        id: 260,
+        index: 260,
         name: "swampert",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png",
@@ -4152,7 +4152,7 @@ exports.data = [
         ],
       },
       {
-        id: 262,
+        index: 262,
         name: "mightyena",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png",
@@ -4164,7 +4164,7 @@ exports.data = [
         ],
       },
       {
-        id: 264,
+        index: 264,
         name: "linoone",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png",
@@ -4176,7 +4176,7 @@ exports.data = [
         ],
       },
       {
-        id: 266,
+        index: 266,
         name: "silcoon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png",
@@ -4188,7 +4188,7 @@ exports.data = [
         ],
       },
       {
-        id: 267,
+        index: 267,
         name: "beautifly",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
@@ -4204,7 +4204,7 @@ exports.data = [
         ],
       },
       {
-        id: 268,
+        index: 268,
         name: "cascoon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png",
@@ -4216,7 +4216,7 @@ exports.data = [
         ],
       },
       {
-        id: 269,
+        index: 269,
         name: "dustox",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png",
@@ -4232,7 +4232,7 @@ exports.data = [
         ],
       },
       {
-        id: 271,
+        index: 271,
         name: "lombre",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png",
@@ -4248,7 +4248,7 @@ exports.data = [
         ],
       },
       {
-        id: 272,
+        index: 272,
         name: "ludicolo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png",
@@ -4264,7 +4264,7 @@ exports.data = [
         ],
       },
       {
-        id: 274,
+        index: 274,
         name: "nuzleaf",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png",
@@ -4280,7 +4280,7 @@ exports.data = [
         ],
       },
       {
-        id: 275,
+        index: 275,
         name: "shiftry",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/275.png",
@@ -4296,7 +4296,7 @@ exports.data = [
         ],
       },
       {
-        id: 277,
+        index: 277,
         name: "swellow",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png",
@@ -4312,7 +4312,7 @@ exports.data = [
         ],
       },
       {
-        id: 279,
+        index: 279,
         name: "pelipper",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
@@ -4328,7 +4328,7 @@ exports.data = [
         ],
       },
       {
-        id: 281,
+        index: 281,
         name: "kirlia",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
@@ -4347,7 +4347,7 @@ exports.data = [
         ],
       },
       {
-        id: 282,
+        index: 282,
         name: "gardevoir",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
@@ -4366,7 +4366,7 @@ exports.data = [
         ],
       },
       {
-        id: 284,
+        index: 284,
         name: "masquerain",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png",
@@ -4382,7 +4382,7 @@ exports.data = [
         ],
       },
       {
-        id: 286,
+        index: 286,
         name: "breloom",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png",
@@ -4401,7 +4401,7 @@ exports.data = [
         ],
       },
       {
-        id: 288,
+        index: 288,
         name: "vigoroth",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png",
@@ -4413,7 +4413,7 @@ exports.data = [
         ],
       },
       {
-        id: 289,
+        index: 289,
         name: "slaking",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png",
@@ -4425,7 +4425,7 @@ exports.data = [
         ],
       },
       {
-        id: 291,
+        index: 291,
         name: "ninjask",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
@@ -4441,7 +4441,7 @@ exports.data = [
         ],
       },
       {
-        id: 292,
+        index: 292,
         name: "shedinja",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png",
@@ -4457,7 +4457,7 @@ exports.data = [
         ],
       },
       {
-        id: 294,
+        index: 294,
         name: "loudred",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png",
@@ -4469,7 +4469,7 @@ exports.data = [
         ],
       },
       {
-        id: 295,
+        index: 295,
         name: "exploud",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png",
@@ -4481,7 +4481,7 @@ exports.data = [
         ],
       },
       {
-        id: 297,
+        index: 297,
         name: "hariyama",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png",
@@ -4496,7 +4496,7 @@ exports.data = [
         ],
       },
       {
-        id: 301,
+        index: 301,
         name: "delcatty",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png",
@@ -4508,7 +4508,7 @@ exports.data = [
         ],
       },
       {
-        id: 305,
+        index: 305,
         name: "lairon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png",
@@ -4524,7 +4524,7 @@ exports.data = [
         ],
       },
       {
-        id: 306,
+        index: 306,
         name: "aggron",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
@@ -4540,7 +4540,7 @@ exports.data = [
         ],
       },
       {
-        id: 308,
+        index: 308,
         name: "medicham",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
@@ -4562,7 +4562,7 @@ exports.data = [
         ],
       },
       {
-        id: 310,
+        index: 310,
         name: "manectric",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png",
@@ -4577,7 +4577,7 @@ exports.data = [
         ],
       },
       {
-        id: 316,
+        index: 316,
         name: "gulpin",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png",
@@ -4589,7 +4589,7 @@ exports.data = [
         ],
       },
       {
-        id: 318,
+        index: 318,
         name: "carvanha",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png",
@@ -4605,7 +4605,7 @@ exports.data = [
         ],
       },
       {
-        id: 320,
+        index: 320,
         name: "wailmer",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png",
@@ -4617,7 +4617,7 @@ exports.data = [
         ],
       },
       {
-        id: 322,
+        index: 322,
         name: "numel",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png",
@@ -4633,7 +4633,7 @@ exports.data = [
         ],
       },
       {
-        id: 324,
+        index: 324,
         name: "torkoal",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png",
@@ -4645,7 +4645,7 @@ exports.data = [
         ],
       },
       {
-        id: 325,
+        index: 325,
         name: "spoink",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png",
@@ -4660,7 +4660,7 @@ exports.data = [
         ],
       },
       {
-        id: 327,
+        index: 327,
         name: "spinda",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png",
@@ -4672,7 +4672,7 @@ exports.data = [
         ],
       },
       {
-        id: 328,
+        index: 328,
         name: "trapinch",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png",
@@ -4684,7 +4684,7 @@ exports.data = [
         ],
       },
       {
-        id: 331,
+        index: 331,
         name: "cacnea",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png",
@@ -4696,7 +4696,7 @@ exports.data = [
         ],
       },
       {
-        id: 333,
+        index: 333,
         name: "swablu",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
@@ -4712,7 +4712,7 @@ exports.data = [
         ],
       },
       {
-        id: 335,
+        index: 335,
         name: "zangoose",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/335.png",
@@ -4724,7 +4724,7 @@ exports.data = [
         ],
       },
       {
-        id: 336,
+        index: 336,
         name: "seviper",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png",
@@ -4736,7 +4736,7 @@ exports.data = [
         ],
       },
       {
-        id: 337,
+        index: 337,
         name: "lunatone",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/337.png",
@@ -4755,7 +4755,7 @@ exports.data = [
         ],
       },
       {
-        id: 338,
+        index: 338,
         name: "solrock",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png",
@@ -4774,7 +4774,7 @@ exports.data = [
         ],
       },
       {
-        id: 339,
+        index: 339,
         name: "barboach",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
@@ -4790,7 +4790,7 @@ exports.data = [
         ],
       },
       {
-        id: 341,
+        index: 341,
         name: "corphish",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png",
@@ -4802,7 +4802,7 @@ exports.data = [
         ],
       },
       {
-        id: 343,
+        index: 343,
         name: "baltoy",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png",
@@ -4821,7 +4821,7 @@ exports.data = [
         ],
       },
       {
-        id: 345,
+        index: 345,
         name: "lileep",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png",
@@ -4837,7 +4837,7 @@ exports.data = [
         ],
       },
       {
-        id: 347,
+        index: 347,
         name: "anorith",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png",
@@ -4853,7 +4853,7 @@ exports.data = [
         ],
       },
       {
-        id: 349,
+        index: 349,
         name: "feebas",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
@@ -4865,7 +4865,7 @@ exports.data = [
         ],
       },
       {
-        id: 351,
+        index: 351,
         name: "castform",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/351.png",
@@ -4877,7 +4877,7 @@ exports.data = [
         ],
       },
       {
-        id: 352,
+        index: 352,
         name: "kecleon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png",
@@ -4889,7 +4889,7 @@ exports.data = [
         ],
       },
       {
-        id: 353,
+        index: 353,
         name: "shuppet",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png",
@@ -4901,7 +4901,7 @@ exports.data = [
         ],
       },
       {
-        id: 355,
+        index: 355,
         name: "duskull",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
@@ -4913,7 +4913,7 @@ exports.data = [
         ],
       },
       {
-        id: 357,
+        index: 357,
         name: "tropius",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png",
@@ -4929,7 +4929,7 @@ exports.data = [
         ],
       },
       {
-        id: 359,
+        index: 359,
         name: "absol",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
@@ -4941,7 +4941,7 @@ exports.data = [
         ],
       },
       {
-        id: 360,
+        index: 360,
         name: "wynaut",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png",
@@ -4956,7 +4956,7 @@ exports.data = [
         ],
       },
       {
-        id: 361,
+        index: 361,
         name: "snorunt",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png",
@@ -4968,7 +4968,7 @@ exports.data = [
         ],
       },
       {
-        id: 363,
+        index: 363,
         name: "spheal",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/363.png",
@@ -4984,7 +4984,7 @@ exports.data = [
         ],
       },
       {
-        id: 366,
+        index: 366,
         name: "clamperl",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png",
@@ -4996,7 +4996,7 @@ exports.data = [
         ],
       },
       {
-        id: 369,
+        index: 369,
         name: "relicanth",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png",
@@ -5012,7 +5012,7 @@ exports.data = [
         ],
       },
       {
-        id: 370,
+        index: 370,
         name: "luvdisc",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png",
@@ -5024,7 +5024,7 @@ exports.data = [
         ],
       },
       {
-        id: 371,
+        index: 371,
         name: "bagon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png",
@@ -5036,7 +5036,7 @@ exports.data = [
         ],
       },
       {
-        id: 374,
+        index: 374,
         name: "beldum",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png",
@@ -5055,7 +5055,7 @@ exports.data = [
         ],
       },
       {
-        id: 377,
+        index: 377,
         name: "regirock",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/377.png",
@@ -5067,7 +5067,7 @@ exports.data = [
         ],
       },
       {
-        id: 378,
+        index: 378,
         name: "regice",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/378.png",
@@ -5079,7 +5079,7 @@ exports.data = [
         ],
       },
       {
-        id: 379,
+        index: 379,
         name: "registeel",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/379.png",
@@ -5091,7 +5091,7 @@ exports.data = [
         ],
       },
       {
-        id: 380,
+        index: 380,
         name: "latias",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png",
@@ -5110,7 +5110,7 @@ exports.data = [
         ],
       },
       {
-        id: 381,
+        index: 381,
         name: "latios",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png",
@@ -5129,7 +5129,7 @@ exports.data = [
         ],
       },
       {
-        id: 382,
+        index: 382,
         name: "kyogre",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png",
@@ -5141,7 +5141,7 @@ exports.data = [
         ],
       },
       {
-        id: 383,
+        index: 383,
         name: "groudon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png",
@@ -5153,7 +5153,7 @@ exports.data = [
         ],
       },
       {
-        id: 384,
+        index: 384,
         name: "rayquaza",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
@@ -5169,7 +5169,7 @@ exports.data = [
         ],
       },
       {
-        id: 385,
+        index: 385,
         name: "jirachi",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/385.png",
@@ -5188,7 +5188,7 @@ exports.data = [
         ],
       },
       {
-        id: 386,
+        index: 386,
         name: "deoxys-normal",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png",
@@ -5203,7 +5203,7 @@ exports.data = [
         ],
       },
       {
-        id: 317,
+        index: 317,
         name: "swalot",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png",
@@ -5215,7 +5215,7 @@ exports.data = [
         ],
       },
       {
-        id: 319,
+        index: 319,
         name: "sharpedo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png",
@@ -5231,7 +5231,7 @@ exports.data = [
         ],
       },
       {
-        id: 321,
+        index: 321,
         name: "wailord",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png",
@@ -5243,7 +5243,7 @@ exports.data = [
         ],
       },
       {
-        id: 323,
+        index: 323,
         name: "camerupt",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png",
@@ -5259,7 +5259,7 @@ exports.data = [
         ],
       },
       {
-        id: 326,
+        index: 326,
         name: "grumpig",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
@@ -5274,7 +5274,7 @@ exports.data = [
         ],
       },
       {
-        id: 329,
+        index: 329,
         name: "vibrava",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png",
@@ -5290,7 +5290,7 @@ exports.data = [
         ],
       },
       {
-        id: 330,
+        index: 330,
         name: "flygon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png",
@@ -5306,7 +5306,7 @@ exports.data = [
         ],
       },
       {
-        id: 332,
+        index: 332,
         name: "cacturne",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/332.png",
@@ -5322,7 +5322,7 @@ exports.data = [
         ],
       },
       {
-        id: 334,
+        index: 334,
         name: "altaria",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
@@ -5338,7 +5338,7 @@ exports.data = [
         ],
       },
       {
-        id: 340,
+        index: 340,
         name: "whiscash",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png",
@@ -5354,7 +5354,7 @@ exports.data = [
         ],
       },
       {
-        id: 342,
+        index: 342,
         name: "crawdaunt",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png",
@@ -5370,7 +5370,7 @@ exports.data = [
         ],
       },
       {
-        id: 344,
+        index: 344,
         name: "claydol",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png",
@@ -5389,7 +5389,7 @@ exports.data = [
         ],
       },
       {
-        id: 346,
+        index: 346,
         name: "cradily",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png",
@@ -5405,7 +5405,7 @@ exports.data = [
         ],
       },
       {
-        id: 348,
+        index: 348,
         name: "armaldo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png",
@@ -5421,7 +5421,7 @@ exports.data = [
         ],
       },
       {
-        id: 350,
+        index: 350,
         name: "milotic",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
@@ -5433,7 +5433,7 @@ exports.data = [
         ],
       },
       {
-        id: 354,
+        index: 354,
         name: "banette",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png",
@@ -5445,7 +5445,7 @@ exports.data = [
         ],
       },
       {
-        id: 356,
+        index: 356,
         name: "dusclops",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png",
@@ -5457,7 +5457,7 @@ exports.data = [
         ],
       },
       {
-        id: 358,
+        index: 358,
         name: "chimecho",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png",
@@ -5472,7 +5472,7 @@ exports.data = [
         ],
       },
       {
-        id: 362,
+        index: 362,
         name: "glalie",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png",
@@ -5484,7 +5484,7 @@ exports.data = [
         ],
       },
       {
-        id: 364,
+        index: 364,
         name: "sealeo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png",
@@ -5500,7 +5500,7 @@ exports.data = [
         ],
       },
       {
-        id: 365,
+        index: 365,
         name: "walrein",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png",
@@ -5516,7 +5516,7 @@ exports.data = [
         ],
       },
       {
-        id: 367,
+        index: 367,
         name: "huntail",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png",
@@ -5528,7 +5528,7 @@ exports.data = [
         ],
       },
       {
-        id: 368,
+        index: 368,
         name: "gorebyss",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png",
@@ -5540,7 +5540,7 @@ exports.data = [
         ],
       },
       {
-        id: 372,
+        index: 372,
         name: "shelgon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png",
@@ -5552,7 +5552,7 @@ exports.data = [
         ],
       },
       {
-        id: 373,
+        index: 373,
         name: "salamence",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png",
@@ -5568,7 +5568,7 @@ exports.data = [
         ],
       },
       {
-        id: 375,
+        index: 375,
         name: "metang",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png",
@@ -5587,7 +5587,7 @@ exports.data = [
         ],
       },
       {
-        id: 376,
+        index: 376,
         name: "metagross",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png",
@@ -5606,7 +5606,7 @@ exports.data = [
         ],
       },
       {
-        id: 315,
+        index: 315,
         name: "roselia",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png",
@@ -5627,7 +5627,7 @@ exports.data = [
     generation: "generation-iv",
     pokemonData: [
       {
-        id: 387,
+        index: 387,
         name: "turtwig",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
@@ -5639,7 +5639,7 @@ exports.data = [
         ],
       },
       {
-        id: 390,
+        index: 390,
         name: "chimchar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
@@ -5651,7 +5651,7 @@ exports.data = [
         ],
       },
       {
-        id: 393,
+        index: 393,
         name: "piplup",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
@@ -5663,7 +5663,7 @@ exports.data = [
         ],
       },
       {
-        id: 388,
+        index: 388,
         name: "grotle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png",
@@ -5675,7 +5675,7 @@ exports.data = [
         ],
       },
       {
-        id: 389,
+        index: 389,
         name: "torterra",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
@@ -5691,7 +5691,7 @@ exports.data = [
         ],
       },
       {
-        id: 391,
+        index: 391,
         name: "monferno",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png",
@@ -5710,7 +5710,7 @@ exports.data = [
         ],
       },
       {
-        id: 392,
+        index: 392,
         name: "infernape",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
@@ -5729,7 +5729,7 @@ exports.data = [
         ],
       },
       {
-        id: 396,
+        index: 396,
         name: "starly",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
@@ -5745,7 +5745,7 @@ exports.data = [
         ],
       },
       {
-        id: 399,
+        index: 399,
         name: "bidoof",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
@@ -5757,7 +5757,7 @@ exports.data = [
         ],
       },
       {
-        id: 401,
+        index: 401,
         name: "kricketot",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
@@ -5769,7 +5769,7 @@ exports.data = [
         ],
       },
       {
-        id: 403,
+        index: 403,
         name: "shinx",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png",
@@ -5784,7 +5784,7 @@ exports.data = [
         ],
       },
       {
-        id: 406,
+        index: 406,
         name: "budew",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
@@ -5800,7 +5800,7 @@ exports.data = [
         ],
       },
       {
-        id: 408,
+        index: 408,
         name: "cranidos",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
@@ -5812,7 +5812,7 @@ exports.data = [
         ],
       },
       {
-        id: 410,
+        index: 410,
         name: "shieldon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
@@ -5828,7 +5828,7 @@ exports.data = [
         ],
       },
       {
-        id: 412,
+        index: 412,
         name: "burmy",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
@@ -5840,7 +5840,7 @@ exports.data = [
         ],
       },
       {
-        id: 415,
+        index: 415,
         name: "combee",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
@@ -5856,7 +5856,7 @@ exports.data = [
         ],
       },
       {
-        id: 417,
+        index: 417,
         name: "pachirisu",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png",
@@ -5871,7 +5871,7 @@ exports.data = [
         ],
       },
       {
-        id: 418,
+        index: 418,
         name: "buizel",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
@@ -5883,7 +5883,7 @@ exports.data = [
         ],
       },
       {
-        id: 420,
+        index: 420,
         name: "cherubi",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
@@ -5895,7 +5895,7 @@ exports.data = [
         ],
       },
       {
-        id: 422,
+        index: 422,
         name: "shellos",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
@@ -5907,7 +5907,7 @@ exports.data = [
         ],
       },
       {
-        id: 425,
+        index: 425,
         name: "drifloon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
@@ -5923,7 +5923,7 @@ exports.data = [
         ],
       },
       {
-        id: 427,
+        index: 427,
         name: "buneary",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
@@ -5935,7 +5935,7 @@ exports.data = [
         ],
       },
       {
-        id: 431,
+        index: 431,
         name: "glameow",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
@@ -5947,7 +5947,7 @@ exports.data = [
         ],
       },
       {
-        id: 433,
+        index: 433,
         name: "chingling",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
@@ -5962,7 +5962,7 @@ exports.data = [
         ],
       },
       {
-        id: 434,
+        index: 434,
         name: "stunky",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
@@ -5978,7 +5978,7 @@ exports.data = [
         ],
       },
       {
-        id: 436,
+        index: 436,
         name: "bronzor",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
@@ -5997,7 +5997,7 @@ exports.data = [
         ],
       },
       {
-        id: 438,
+        index: 438,
         name: "bonsly",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
@@ -6009,7 +6009,7 @@ exports.data = [
         ],
       },
       {
-        id: 439,
+        index: 439,
         name: "mime-jr",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
@@ -6028,7 +6028,7 @@ exports.data = [
         ],
       },
       {
-        id: 440,
+        index: 440,
         name: "happiny",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
@@ -6040,7 +6040,7 @@ exports.data = [
         ],
       },
       {
-        id: 441,
+        index: 441,
         name: "chatot",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png",
@@ -6056,7 +6056,7 @@ exports.data = [
         ],
       },
       {
-        id: 442,
+        index: 442,
         name: "spiritomb",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
@@ -6072,7 +6072,7 @@ exports.data = [
         ],
       },
       {
-        id: 443,
+        index: 443,
         name: "gible",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
@@ -6088,7 +6088,7 @@ exports.data = [
         ],
       },
       {
-        id: 446,
+        index: 446,
         name: "munchlax",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
@@ -6100,7 +6100,7 @@ exports.data = [
         ],
       },
       {
-        id: 447,
+        index: 447,
         name: "riolu",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
@@ -6115,7 +6115,7 @@ exports.data = [
         ],
       },
       {
-        id: 449,
+        index: 449,
         name: "hippopotas",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
@@ -6127,7 +6127,7 @@ exports.data = [
         ],
       },
       {
-        id: 451,
+        index: 451,
         name: "skorupi",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
@@ -6143,7 +6143,7 @@ exports.data = [
         ],
       },
       {
-        id: 453,
+        index: 453,
         name: "croagunk",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
@@ -6162,7 +6162,7 @@ exports.data = [
         ],
       },
       {
-        id: 455,
+        index: 455,
         name: "carnivine",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png",
@@ -6174,7 +6174,7 @@ exports.data = [
         ],
       },
       {
-        id: 456,
+        index: 456,
         name: "finneon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
@@ -6186,7 +6186,7 @@ exports.data = [
         ],
       },
       {
-        id: 458,
+        index: 458,
         name: "mantyke",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
@@ -6202,7 +6202,7 @@ exports.data = [
         ],
       },
       {
-        id: 459,
+        index: 459,
         name: "snover",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
@@ -6218,7 +6218,7 @@ exports.data = [
         ],
       },
       {
-        id: 395,
+        index: 395,
         name: "empoleon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
@@ -6234,7 +6234,7 @@ exports.data = [
         ],
       },
       {
-        id: 397,
+        index: 397,
         name: "staravia",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png",
@@ -6250,7 +6250,7 @@ exports.data = [
         ],
       },
       {
-        id: 398,
+        index: 398,
         name: "staraptor",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
@@ -6266,7 +6266,7 @@ exports.data = [
         ],
       },
       {
-        id: 400,
+        index: 400,
         name: "bibarel",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
@@ -6282,7 +6282,7 @@ exports.data = [
         ],
       },
       {
-        id: 402,
+        index: 402,
         name: "kricketune",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
@@ -6294,7 +6294,7 @@ exports.data = [
         ],
       },
       {
-        id: 404,
+        index: 404,
         name: "luxio",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
@@ -6309,7 +6309,7 @@ exports.data = [
         ],
       },
       {
-        id: 405,
+        index: 405,
         name: "luxray",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
@@ -6324,7 +6324,7 @@ exports.data = [
         ],
       },
       {
-        id: 409,
+        index: 409,
         name: "rampardos",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
@@ -6336,7 +6336,7 @@ exports.data = [
         ],
       },
       {
-        id: 411,
+        index: 411,
         name: "bastiodon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
@@ -6352,7 +6352,7 @@ exports.data = [
         ],
       },
       {
-        id: 413,
+        index: 413,
         name: "wormadam-plant",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png",
@@ -6368,7 +6368,7 @@ exports.data = [
         ],
       },
       {
-        id: 414,
+        index: 414,
         name: "mothim",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png",
@@ -6384,7 +6384,7 @@ exports.data = [
         ],
       },
       {
-        id: 416,
+        index: 416,
         name: "vespiquen",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
@@ -6400,7 +6400,7 @@ exports.data = [
         ],
       },
       {
-        id: 419,
+        index: 419,
         name: "floatzel",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png",
@@ -6412,7 +6412,7 @@ exports.data = [
         ],
       },
       {
-        id: 421,
+        index: 421,
         name: "cherrim",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
@@ -6424,7 +6424,7 @@ exports.data = [
         ],
       },
       {
-        id: 423,
+        index: 423,
         name: "gastrodon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
@@ -6440,7 +6440,7 @@ exports.data = [
         ],
       },
       {
-        id: 424,
+        index: 424,
         name: "ambipom",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
@@ -6452,7 +6452,7 @@ exports.data = [
         ],
       },
       {
-        id: 426,
+        index: 426,
         name: "drifblim",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
@@ -6468,7 +6468,7 @@ exports.data = [
         ],
       },
       {
-        id: 428,
+        index: 428,
         name: "lopunny",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png",
@@ -6480,7 +6480,7 @@ exports.data = [
         ],
       },
       {
-        id: 430,
+        index: 430,
         name: "honchkrow",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
@@ -6496,7 +6496,7 @@ exports.data = [
         ],
       },
       {
-        id: 432,
+        index: 432,
         name: "purugly",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
@@ -6508,7 +6508,7 @@ exports.data = [
         ],
       },
       {
-        id: 435,
+        index: 435,
         name: "skuntank",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png",
@@ -6524,7 +6524,7 @@ exports.data = [
         ],
       },
       {
-        id: 437,
+        index: 437,
         name: "bronzong",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
@@ -6543,7 +6543,7 @@ exports.data = [
         ],
       },
       {
-        id: 444,
+        index: 444,
         name: "gabite",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png",
@@ -6559,7 +6559,7 @@ exports.data = [
         ],
       },
       {
-        id: 445,
+        index: 445,
         name: "garchomp",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
@@ -6575,7 +6575,7 @@ exports.data = [
         ],
       },
       {
-        id: 448,
+        index: 448,
         name: "lucario",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
@@ -6594,7 +6594,7 @@ exports.data = [
         ],
       },
       {
-        id: 450,
+        index: 450,
         name: "hippowdon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
@@ -6606,7 +6606,7 @@ exports.data = [
         ],
       },
       {
-        id: 452,
+        index: 452,
         name: "drapion",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
@@ -6622,7 +6622,7 @@ exports.data = [
         ],
       },
       {
-        id: 454,
+        index: 454,
         name: "toxicroak",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
@@ -6641,7 +6641,7 @@ exports.data = [
         ],
       },
       {
-        id: 457,
+        index: 457,
         name: "lumineon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
@@ -6653,7 +6653,7 @@ exports.data = [
         ],
       },
       {
-        id: 461,
+        index: 461,
         name: "weavile",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
@@ -6669,7 +6669,7 @@ exports.data = [
         ],
       },
       {
-        id: 462,
+        index: 462,
         name: "magnezone",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
@@ -6688,7 +6688,7 @@ exports.data = [
         ],
       },
       {
-        id: 463,
+        index: 463,
         name: "lickilicky",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
@@ -6700,7 +6700,7 @@ exports.data = [
         ],
       },
       {
-        id: 464,
+        index: 464,
         name: "rhyperior",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
@@ -6716,7 +6716,7 @@ exports.data = [
         ],
       },
       {
-        id: 465,
+        index: 465,
         name: "tangrowth",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
@@ -6728,7 +6728,7 @@ exports.data = [
         ],
       },
       {
-        id: 466,
+        index: 466,
         name: "electivire",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
@@ -6743,7 +6743,7 @@ exports.data = [
         ],
       },
       {
-        id: 467,
+        index: 467,
         name: "magmortar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
@@ -6755,7 +6755,7 @@ exports.data = [
         ],
       },
       {
-        id: 468,
+        index: 468,
         name: "togekiss",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
@@ -6771,7 +6771,7 @@ exports.data = [
         ],
       },
       {
-        id: 469,
+        index: 469,
         name: "yanmega",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
@@ -6787,7 +6787,7 @@ exports.data = [
         ],
       },
       {
-        id: 470,
+        index: 470,
         name: "leafeon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png",
@@ -6799,7 +6799,7 @@ exports.data = [
         ],
       },
       {
-        id: 472,
+        index: 472,
         name: "gliscor",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
@@ -6815,7 +6815,7 @@ exports.data = [
         ],
       },
       {
-        id: 473,
+        index: 473,
         name: "mamoswine",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
@@ -6831,7 +6831,7 @@ exports.data = [
         ],
       },
       {
-        id: 474,
+        index: 474,
         name: "porygon-z",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png",
@@ -6843,7 +6843,7 @@ exports.data = [
         ],
       },
       {
-        id: 479,
+        index: 479,
         name: "rotom",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png",
@@ -6862,7 +6862,7 @@ exports.data = [
         ],
       },
       {
-        id: 480,
+        index: 480,
         name: "uxie",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
@@ -6877,7 +6877,7 @@ exports.data = [
         ],
       },
       {
-        id: 481,
+        index: 481,
         name: "mesprit",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png",
@@ -6892,7 +6892,7 @@ exports.data = [
         ],
       },
       {
-        id: 482,
+        index: 482,
         name: "azelf",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png",
@@ -6907,7 +6907,7 @@ exports.data = [
         ],
       },
       {
-        id: 483,
+        index: 483,
         name: "dialga",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
@@ -6923,7 +6923,7 @@ exports.data = [
         ],
       },
       {
-        id: 484,
+        index: 484,
         name: "palkia",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png",
@@ -6939,7 +6939,7 @@ exports.data = [
         ],
       },
       {
-        id: 485,
+        index: 485,
         name: "heatran",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png",
@@ -6955,7 +6955,7 @@ exports.data = [
         ],
       },
       {
-        id: 486,
+        index: 486,
         name: "regigigas",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png",
@@ -6967,7 +6967,7 @@ exports.data = [
         ],
       },
       {
-        id: 487,
+        index: 487,
         name: "giratina-altered",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png",
@@ -6983,7 +6983,7 @@ exports.data = [
         ],
       },
       {
-        id: 488,
+        index: 488,
         name: "cresselia",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png",
@@ -6998,7 +6998,7 @@ exports.data = [
         ],
       },
       {
-        id: 489,
+        index: 489,
         name: "phione",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
@@ -7010,7 +7010,7 @@ exports.data = [
         ],
       },
       {
-        id: 490,
+        index: 490,
         name: "manaphy",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png",
@@ -7022,7 +7022,7 @@ exports.data = [
         ],
       },
       {
-        id: 491,
+        index: 491,
         name: "darkrai",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/491.png",
@@ -7034,7 +7034,7 @@ exports.data = [
         ],
       },
       {
-        id: 492,
+        index: 492,
         name: "shaymin-land",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492.png",
@@ -7046,7 +7046,7 @@ exports.data = [
         ],
       },
       {
-        id: 493,
+        index: 493,
         name: "arceus",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/493.png",
@@ -7058,7 +7058,7 @@ exports.data = [
         ],
       },
       {
-        id: 476,
+        index: 476,
         name: "probopass",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
@@ -7074,7 +7074,7 @@ exports.data = [
         ],
       },
       {
-        id: 477,
+        index: 477,
         name: "dusknoir",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png",
@@ -7086,7 +7086,7 @@ exports.data = [
         ],
       },
       {
-        id: 478,
+        index: 478,
         name: "froslass",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png",
@@ -7102,7 +7102,7 @@ exports.data = [
         ],
       },
       {
-        id: 394,
+        index: 394,
         name: "prinplup",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png",
@@ -7114,7 +7114,7 @@ exports.data = [
         ],
       },
       {
-        id: 407,
+        index: 407,
         name: "roserade",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
@@ -7130,7 +7130,7 @@ exports.data = [
         ],
       },
       {
-        id: 429,
+        index: 429,
         name: "mismagius",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
@@ -7142,7 +7142,7 @@ exports.data = [
         ],
       },
       {
-        id: 460,
+        index: 460,
         name: "abomasnow",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
@@ -7158,7 +7158,7 @@ exports.data = [
         ],
       },
       {
-        id: 471,
+        index: 471,
         name: "glaceon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
@@ -7170,7 +7170,7 @@ exports.data = [
         ],
       },
       {
-        id: 475,
+        index: 475,
         name: "gallade",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
@@ -7197,7 +7197,7 @@ exports.data = [
     generation: "generation-v",
     pokemonData: [
       {
-        id: 494,
+        index: 494,
         name: "victini",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png",
@@ -7216,7 +7216,7 @@ exports.data = [
         ],
       },
       {
-        id: 495,
+        index: 495,
         name: "snivy",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
@@ -7228,7 +7228,7 @@ exports.data = [
         ],
       },
       {
-        id: 498,
+        index: 498,
         name: "tepig",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png",
@@ -7240,7 +7240,7 @@ exports.data = [
         ],
       },
       {
-        id: 501,
+        index: 501,
         name: "oshawott",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png",
@@ -7252,7 +7252,7 @@ exports.data = [
         ],
       },
       {
-        id: 504,
+        index: 504,
         name: "patrat",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png",
@@ -7264,7 +7264,7 @@ exports.data = [
         ],
       },
       {
-        id: 506,
+        index: 506,
         name: "lillipup",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png",
@@ -7276,7 +7276,7 @@ exports.data = [
         ],
       },
       {
-        id: 509,
+        index: 509,
         name: "purrloin",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png",
@@ -7288,7 +7288,7 @@ exports.data = [
         ],
       },
       {
-        id: 511,
+        index: 511,
         name: "pansage",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png",
@@ -7300,7 +7300,7 @@ exports.data = [
         ],
       },
       {
-        id: 513,
+        index: 513,
         name: "pansear",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png",
@@ -7312,7 +7312,7 @@ exports.data = [
         ],
       },
       {
-        id: 515,
+        index: 515,
         name: "panpour",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
@@ -7324,7 +7324,7 @@ exports.data = [
         ],
       },
       {
-        id: 517,
+        index: 517,
         name: "munna",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png",
@@ -7339,7 +7339,7 @@ exports.data = [
         ],
       },
       {
-        id: 519,
+        index: 519,
         name: "pidove",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/519.png",
@@ -7355,7 +7355,7 @@ exports.data = [
         ],
       },
       {
-        id: 522,
+        index: 522,
         name: "blitzle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png",
@@ -7370,7 +7370,7 @@ exports.data = [
         ],
       },
       {
-        id: 524,
+        index: 524,
         name: "roggenrola",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png",
@@ -7382,7 +7382,7 @@ exports.data = [
         ],
       },
       {
-        id: 527,
+        index: 527,
         name: "woobat",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png",
@@ -7401,7 +7401,7 @@ exports.data = [
         ],
       },
       {
-        id: 529,
+        index: 529,
         name: "drilbur",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/529.png",
@@ -7413,7 +7413,7 @@ exports.data = [
         ],
       },
       {
-        id: 531,
+        index: 531,
         name: "audino",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png",
@@ -7425,7 +7425,7 @@ exports.data = [
         ],
       },
       {
-        id: 532,
+        index: 532,
         name: "timburr",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png",
@@ -7440,7 +7440,7 @@ exports.data = [
         ],
       },
       {
-        id: 535,
+        index: 535,
         name: "tympole",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png",
@@ -7452,7 +7452,7 @@ exports.data = [
         ],
       },
       {
-        id: 538,
+        index: 538,
         name: "throh",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/538.png",
@@ -7467,7 +7467,7 @@ exports.data = [
         ],
       },
       {
-        id: 539,
+        index: 539,
         name: "sawk",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/539.png",
@@ -7482,7 +7482,7 @@ exports.data = [
         ],
       },
       {
-        id: 540,
+        index: 540,
         name: "sewaddle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png",
@@ -7498,7 +7498,7 @@ exports.data = [
         ],
       },
       {
-        id: 543,
+        index: 543,
         name: "venipede",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png",
@@ -7514,7 +7514,7 @@ exports.data = [
         ],
       },
       {
-        id: 546,
+        index: 546,
         name: "cottonee",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/546.png",
@@ -7530,7 +7530,7 @@ exports.data = [
         ],
       },
       {
-        id: 548,
+        index: 548,
         name: "petilil",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/548.png",
@@ -7542,7 +7542,7 @@ exports.data = [
         ],
       },
       {
-        id: 550,
+        index: 550,
         name: "basculin-red-striped",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png",
@@ -7554,7 +7554,7 @@ exports.data = [
         ],
       },
       {
-        id: 551,
+        index: 551,
         name: "sandile",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/551.png",
@@ -7570,7 +7570,7 @@ exports.data = [
         ],
       },
       {
-        id: 554,
+        index: 554,
         name: "darumaka",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png",
@@ -7582,7 +7582,7 @@ exports.data = [
         ],
       },
       {
-        id: 496,
+        index: 496,
         name: "servine",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png",
@@ -7594,7 +7594,7 @@ exports.data = [
         ],
       },
       {
-        id: 497,
+        index: 497,
         name: "serperior",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png",
@@ -7606,7 +7606,7 @@ exports.data = [
         ],
       },
       {
-        id: 499,
+        index: 499,
         name: "pignite",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/499.png",
@@ -7625,7 +7625,7 @@ exports.data = [
         ],
       },
       {
-        id: 500,
+        index: 500,
         name: "emboar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
@@ -7644,7 +7644,7 @@ exports.data = [
         ],
       },
       {
-        id: 502,
+        index: 502,
         name: "dewott",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png",
@@ -7656,7 +7656,7 @@ exports.data = [
         ],
       },
       {
-        id: 505,
+        index: 505,
         name: "watchog",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png",
@@ -7668,7 +7668,7 @@ exports.data = [
         ],
       },
       {
-        id: 507,
+        index: 507,
         name: "herdier",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png",
@@ -7680,7 +7680,7 @@ exports.data = [
         ],
       },
       {
-        id: 508,
+        index: 508,
         name: "stoutland",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png",
@@ -7692,7 +7692,7 @@ exports.data = [
         ],
       },
       {
-        id: 510,
+        index: 510,
         name: "liepard",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png",
@@ -7704,7 +7704,7 @@ exports.data = [
         ],
       },
       {
-        id: 512,
+        index: 512,
         name: "simisage",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png",
@@ -7716,7 +7716,7 @@ exports.data = [
         ],
       },
       {
-        id: 514,
+        index: 514,
         name: "simisear",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
@@ -7728,7 +7728,7 @@ exports.data = [
         ],
       },
       {
-        id: 516,
+        index: 516,
         name: "simipour",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png",
@@ -7740,7 +7740,7 @@ exports.data = [
         ],
       },
       {
-        id: 518,
+        index: 518,
         name: "musharna",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png",
@@ -7755,7 +7755,7 @@ exports.data = [
         ],
       },
       {
-        id: 520,
+        index: 520,
         name: "tranquill",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/520.png",
@@ -7771,7 +7771,7 @@ exports.data = [
         ],
       },
       {
-        id: 521,
+        index: 521,
         name: "unfezant",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/521.png",
@@ -7787,7 +7787,7 @@ exports.data = [
         ],
       },
       {
-        id: 525,
+        index: 525,
         name: "boldore",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png",
@@ -7799,7 +7799,7 @@ exports.data = [
         ],
       },
       {
-        id: 526,
+        index: 526,
         name: "gigalith",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png",
@@ -7811,7 +7811,7 @@ exports.data = [
         ],
       },
       {
-        id: 528,
+        index: 528,
         name: "swoobat",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png",
@@ -7830,7 +7830,7 @@ exports.data = [
         ],
       },
       {
-        id: 530,
+        index: 530,
         name: "excadrill",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png",
@@ -7846,7 +7846,7 @@ exports.data = [
         ],
       },
       {
-        id: 533,
+        index: 533,
         name: "gurdurr",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png",
@@ -7861,7 +7861,7 @@ exports.data = [
         ],
       },
       {
-        id: 534,
+        index: 534,
         name: "conkeldurr",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png",
@@ -7876,7 +7876,7 @@ exports.data = [
         ],
       },
       {
-        id: 536,
+        index: 536,
         name: "palpitoad",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png",
@@ -7892,7 +7892,7 @@ exports.data = [
         ],
       },
       {
-        id: 537,
+        index: 537,
         name: "seismitoad",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png",
@@ -7908,7 +7908,7 @@ exports.data = [
         ],
       },
       {
-        id: 541,
+        index: 541,
         name: "swadloon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png",
@@ -7924,7 +7924,7 @@ exports.data = [
         ],
       },
       {
-        id: 542,
+        index: 542,
         name: "leavanny",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png",
@@ -7940,7 +7940,7 @@ exports.data = [
         ],
       },
       {
-        id: 545,
+        index: 545,
         name: "scolipede",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
@@ -7956,7 +7956,7 @@ exports.data = [
         ],
       },
       {
-        id: 547,
+        index: 547,
         name: "whimsicott",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png",
@@ -7972,7 +7972,7 @@ exports.data = [
         ],
       },
       {
-        id: 549,
+        index: 549,
         name: "lilligant",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
@@ -7984,7 +7984,7 @@ exports.data = [
         ],
       },
       {
-        id: 552,
+        index: 552,
         name: "krokorok",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png",
@@ -8000,7 +8000,7 @@ exports.data = [
         ],
       },
       {
-        id: 553,
+        index: 553,
         name: "krookodile",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png",
@@ -8016,7 +8016,7 @@ exports.data = [
         ],
       },
       {
-        id: 555,
+        index: 555,
         name: "darmanitan-standard",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/555.png",
@@ -8028,7 +8028,7 @@ exports.data = [
         ],
       },
       {
-        id: 556,
+        index: 556,
         name: "maractus",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png",
@@ -8040,7 +8040,7 @@ exports.data = [
         ],
       },
       {
-        id: 557,
+        index: 557,
         name: "dwebble",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png",
@@ -8056,7 +8056,7 @@ exports.data = [
         ],
       },
       {
-        id: 559,
+        index: 559,
         name: "scraggy",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png",
@@ -8075,7 +8075,7 @@ exports.data = [
         ],
       },
       {
-        id: 561,
+        index: 561,
         name: "sigilyph",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png",
@@ -8094,7 +8094,7 @@ exports.data = [
         ],
       },
       {
-        id: 562,
+        index: 562,
         name: "yamask",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png",
@@ -8106,7 +8106,7 @@ exports.data = [
         ],
       },
       {
-        id: 564,
+        index: 564,
         name: "tirtouga",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png",
@@ -8122,7 +8122,7 @@ exports.data = [
         ],
       },
       {
-        id: 566,
+        index: 566,
         name: "archen",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png",
@@ -8138,7 +8138,7 @@ exports.data = [
         ],
       },
       {
-        id: 568,
+        index: 568,
         name: "trubbish",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png",
@@ -8150,7 +8150,7 @@ exports.data = [
         ],
       },
       {
-        id: 570,
+        index: 570,
         name: "zorua",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png",
@@ -8162,7 +8162,7 @@ exports.data = [
         ],
       },
       {
-        id: 572,
+        index: 572,
         name: "minccino",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png",
@@ -8174,7 +8174,7 @@ exports.data = [
         ],
       },
       {
-        id: 574,
+        index: 574,
         name: "gothita",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png",
@@ -8189,7 +8189,7 @@ exports.data = [
         ],
       },
       {
-        id: 577,
+        index: 577,
         name: "solosis",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png",
@@ -8204,7 +8204,7 @@ exports.data = [
         ],
       },
       {
-        id: 580,
+        index: 580,
         name: "ducklett",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png",
@@ -8220,7 +8220,7 @@ exports.data = [
         ],
       },
       {
-        id: 582,
+        index: 582,
         name: "vanillite",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/582.png",
@@ -8232,7 +8232,7 @@ exports.data = [
         ],
       },
       {
-        id: 585,
+        index: 585,
         name: "deerling",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
@@ -8248,7 +8248,7 @@ exports.data = [
         ],
       },
       {
-        id: 587,
+        index: 587,
         name: "emolga",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png",
@@ -8267,7 +8267,7 @@ exports.data = [
         ],
       },
       {
-        id: 588,
+        index: 588,
         name: "karrablast",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png",
@@ -8279,7 +8279,7 @@ exports.data = [
         ],
       },
       {
-        id: 590,
+        index: 590,
         name: "foongus",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png",
@@ -8295,7 +8295,7 @@ exports.data = [
         ],
       },
       {
-        id: 592,
+        index: 592,
         name: "frillish",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png",
@@ -8311,7 +8311,7 @@ exports.data = [
         ],
       },
       {
-        id: 594,
+        index: 594,
         name: "alomomola",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png",
@@ -8323,7 +8323,7 @@ exports.data = [
         ],
       },
       {
-        id: 595,
+        index: 595,
         name: "joltik",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
@@ -8342,7 +8342,7 @@ exports.data = [
         ],
       },
       {
-        id: 597,
+        index: 597,
         name: "ferroseed",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png",
@@ -8358,7 +8358,7 @@ exports.data = [
         ],
       },
       {
-        id: 599,
+        index: 599,
         name: "klink",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png",
@@ -8370,7 +8370,7 @@ exports.data = [
         ],
       },
       {
-        id: 602,
+        index: 602,
         name: "tynamo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png",
@@ -8385,7 +8385,7 @@ exports.data = [
         ],
       },
       {
-        id: 605,
+        index: 605,
         name: "elgyem",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png",
@@ -8400,7 +8400,7 @@ exports.data = [
         ],
       },
       {
-        id: 607,
+        index: 607,
         name: "litwick",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png",
@@ -8416,7 +8416,7 @@ exports.data = [
         ],
       },
       {
-        id: 610,
+        index: 610,
         name: "axew",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png",
@@ -8428,7 +8428,7 @@ exports.data = [
         ],
       },
       {
-        id: 613,
+        index: 613,
         name: "cubchoo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png",
@@ -8440,7 +8440,7 @@ exports.data = [
         ],
       },
       {
-        id: 615,
+        index: 615,
         name: "cryogonal",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png",
@@ -8452,7 +8452,7 @@ exports.data = [
         ],
       },
       {
-        id: 616,
+        index: 616,
         name: "shelmet",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png",
@@ -8464,7 +8464,7 @@ exports.data = [
         ],
       },
       {
-        id: 618,
+        index: 618,
         name: "stunfisk",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
@@ -8483,7 +8483,7 @@ exports.data = [
         ],
       },
       {
-        id: 619,
+        index: 619,
         name: "mienfoo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png",
@@ -8498,7 +8498,7 @@ exports.data = [
         ],
       },
       {
-        id: 621,
+        index: 621,
         name: "druddigon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/621.png",
@@ -8510,7 +8510,7 @@ exports.data = [
         ],
       },
       {
-        id: 622,
+        index: 622,
         name: "golett",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png",
@@ -8526,7 +8526,7 @@ exports.data = [
         ],
       },
       {
-        id: 624,
+        index: 624,
         name: "pawniard",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png",
@@ -8542,7 +8542,7 @@ exports.data = [
         ],
       },
       {
-        id: 626,
+        index: 626,
         name: "bouffalant",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png",
@@ -8554,7 +8554,7 @@ exports.data = [
         ],
       },
       {
-        id: 627,
+        index: 627,
         name: "rufflet",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png",
@@ -8570,7 +8570,7 @@ exports.data = [
         ],
       },
       {
-        id: 629,
+        index: 629,
         name: "vullaby",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png",
@@ -8586,7 +8586,7 @@ exports.data = [
         ],
       },
       {
-        id: 631,
+        index: 631,
         name: "heatmor",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png",
@@ -8598,7 +8598,7 @@ exports.data = [
         ],
       },
       {
-        id: 632,
+        index: 632,
         name: "durant",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png",
@@ -8614,7 +8614,7 @@ exports.data = [
         ],
       },
       {
-        id: 633,
+        index: 633,
         name: "deino",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png",
@@ -8630,7 +8630,7 @@ exports.data = [
         ],
       },
       {
-        id: 636,
+        index: 636,
         name: "larvesta",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png",
@@ -8646,7 +8646,7 @@ exports.data = [
         ],
       },
       {
-        id: 560,
+        index: 560,
         name: "scrafty",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png",
@@ -8665,7 +8665,7 @@ exports.data = [
         ],
       },
       {
-        id: 563,
+        index: 563,
         name: "cofagrigus",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png",
@@ -8677,7 +8677,7 @@ exports.data = [
         ],
       },
       {
-        id: 565,
+        index: 565,
         name: "carracosta",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png",
@@ -8693,7 +8693,7 @@ exports.data = [
         ],
       },
       {
-        id: 567,
+        index: 567,
         name: "archeops",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png",
@@ -8709,7 +8709,7 @@ exports.data = [
         ],
       },
       {
-        id: 569,
+        index: 569,
         name: "garbodor",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/569.png",
@@ -8721,7 +8721,7 @@ exports.data = [
         ],
       },
       {
-        id: 571,
+        index: 571,
         name: "zoroark",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png",
@@ -8733,7 +8733,7 @@ exports.data = [
         ],
       },
       {
-        id: 573,
+        index: 573,
         name: "cinccino",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png",
@@ -8745,7 +8745,7 @@ exports.data = [
         ],
       },
       {
-        id: 576,
+        index: 576,
         name: "gothitelle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png",
@@ -8760,7 +8760,7 @@ exports.data = [
         ],
       },
       {
-        id: 578,
+        index: 578,
         name: "duosion",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png",
@@ -8775,7 +8775,7 @@ exports.data = [
         ],
       },
       {
-        id: 579,
+        index: 579,
         name: "reuniclus",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png",
@@ -8790,7 +8790,7 @@ exports.data = [
         ],
       },
       {
-        id: 581,
+        index: 581,
         name: "swanna",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png",
@@ -8806,7 +8806,7 @@ exports.data = [
         ],
       },
       {
-        id: 583,
+        index: 583,
         name: "vanillish",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/583.png",
@@ -8818,7 +8818,7 @@ exports.data = [
         ],
       },
       {
-        id: 584,
+        index: 584,
         name: "vanilluxe",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/584.png",
@@ -8830,7 +8830,7 @@ exports.data = [
         ],
       },
       {
-        id: 586,
+        index: 586,
         name: "sawsbuck",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
@@ -8846,7 +8846,7 @@ exports.data = [
         ],
       },
       {
-        id: 589,
+        index: 589,
         name: "escavalier",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png",
@@ -8862,7 +8862,7 @@ exports.data = [
         ],
       },
       {
-        id: 591,
+        index: 591,
         name: "amoonguss",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png",
@@ -8878,7 +8878,7 @@ exports.data = [
         ],
       },
       {
-        id: 596,
+        index: 596,
         name: "galvantula",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
@@ -8897,7 +8897,7 @@ exports.data = [
         ],
       },
       {
-        id: 598,
+        index: 598,
         name: "ferrothorn",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png",
@@ -8913,7 +8913,7 @@ exports.data = [
         ],
       },
       {
-        id: 600,
+        index: 600,
         name: "klang",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png",
@@ -8925,7 +8925,7 @@ exports.data = [
         ],
       },
       {
-        id: 601,
+        index: 601,
         name: "klinklang",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png",
@@ -8937,7 +8937,7 @@ exports.data = [
         ],
       },
       {
-        id: 603,
+        index: 603,
         name: "eelektrik",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/603.png",
@@ -8952,7 +8952,7 @@ exports.data = [
         ],
       },
       {
-        id: 604,
+        index: 604,
         name: "eelektross",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png",
@@ -8967,7 +8967,7 @@ exports.data = [
         ],
       },
       {
-        id: 606,
+        index: 606,
         name: "beheeyem",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png",
@@ -8982,7 +8982,7 @@ exports.data = [
         ],
       },
       {
-        id: 608,
+        index: 608,
         name: "lampent",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png",
@@ -8998,7 +8998,7 @@ exports.data = [
         ],
       },
       {
-        id: 609,
+        index: 609,
         name: "chandelure",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png",
@@ -9014,7 +9014,7 @@ exports.data = [
         ],
       },
       {
-        id: 611,
+        index: 611,
         name: "fraxure",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png",
@@ -9026,7 +9026,7 @@ exports.data = [
         ],
       },
       {
-        id: 612,
+        index: 612,
         name: "haxorus",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png",
@@ -9038,7 +9038,7 @@ exports.data = [
         ],
       },
       {
-        id: 617,
+        index: 617,
         name: "accelgor",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png",
@@ -9050,7 +9050,7 @@ exports.data = [
         ],
       },
       {
-        id: 620,
+        index: 620,
         name: "mienshao",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/620.png",
@@ -9065,7 +9065,7 @@ exports.data = [
         ],
       },
       {
-        id: 623,
+        index: 623,
         name: "golurk",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png",
@@ -9081,7 +9081,7 @@ exports.data = [
         ],
       },
       {
-        id: 625,
+        index: 625,
         name: "bisharp",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png",
@@ -9097,7 +9097,7 @@ exports.data = [
         ],
       },
       {
-        id: 628,
+        index: 628,
         name: "braviary",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png",
@@ -9113,7 +9113,7 @@ exports.data = [
         ],
       },
       {
-        id: 630,
+        index: 630,
         name: "mandibuzz",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/630.png",
@@ -9129,7 +9129,7 @@ exports.data = [
         ],
       },
       {
-        id: 634,
+        index: 634,
         name: "zweilous",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png",
@@ -9145,7 +9145,7 @@ exports.data = [
         ],
       },
       {
-        id: 635,
+        index: 635,
         name: "hydreigon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png",
@@ -9161,7 +9161,7 @@ exports.data = [
         ],
       },
       {
-        id: 638,
+        index: 638,
         name: "cobalion",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png",
@@ -9180,7 +9180,7 @@ exports.data = [
         ],
       },
       {
-        id: 639,
+        index: 639,
         name: "terrakion",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png",
@@ -9199,7 +9199,7 @@ exports.data = [
         ],
       },
       {
-        id: 640,
+        index: 640,
         name: "virizion",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png",
@@ -9218,7 +9218,7 @@ exports.data = [
         ],
       },
       {
-        id: 641,
+        index: 641,
         name: "tornadus-incarnate",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png",
@@ -9230,7 +9230,7 @@ exports.data = [
         ],
       },
       {
-        id: 642,
+        index: 642,
         name: "thundurus-incarnate",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png",
@@ -9249,7 +9249,7 @@ exports.data = [
         ],
       },
       {
-        id: 643,
+        index: 643,
         name: "reshiram",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png",
@@ -9265,7 +9265,7 @@ exports.data = [
         ],
       },
       {
-        id: 644,
+        index: 644,
         name: "zekrom",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
@@ -9284,7 +9284,7 @@ exports.data = [
         ],
       },
       {
-        id: 645,
+        index: 645,
         name: "landorus-incarnate",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png",
@@ -9300,7 +9300,7 @@ exports.data = [
         ],
       },
       {
-        id: 646,
+        index: 646,
         name: "kyurem",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png",
@@ -9316,7 +9316,7 @@ exports.data = [
         ],
       },
       {
-        id: 647,
+        index: 647,
         name: "keldeo-ordinary",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647.png",
@@ -9335,7 +9335,7 @@ exports.data = [
         ],
       },
       {
-        id: 648,
+        index: 648,
         name: "meloetta-aria",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/648.png",
@@ -9354,7 +9354,7 @@ exports.data = [
         ],
       },
       {
-        id: 649,
+        index: 649,
         name: "genesect",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png",
@@ -9370,7 +9370,7 @@ exports.data = [
         ],
       },
       {
-        id: 503,
+        index: 503,
         name: "samurott",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png",
@@ -9382,7 +9382,7 @@ exports.data = [
         ],
       },
       {
-        id: 523,
+        index: 523,
         name: "zebstrika",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png",
@@ -9397,7 +9397,7 @@ exports.data = [
         ],
       },
       {
-        id: 544,
+        index: 544,
         name: "whirlipede",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png",
@@ -9413,7 +9413,7 @@ exports.data = [
         ],
       },
       {
-        id: 558,
+        index: 558,
         name: "crustle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png",
@@ -9429,7 +9429,7 @@ exports.data = [
         ],
       },
       {
-        id: 575,
+        index: 575,
         name: "gothorita",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/575.png",
@@ -9444,7 +9444,7 @@ exports.data = [
         ],
       },
       {
-        id: 593,
+        index: 593,
         name: "jellicent",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png",
@@ -9460,7 +9460,7 @@ exports.data = [
         ],
       },
       {
-        id: 614,
+        index: 614,
         name: "beartic",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png",
@@ -9472,7 +9472,7 @@ exports.data = [
         ],
       },
       {
-        id: 637,
+        index: 637,
         name: "volcarona",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png",
@@ -9493,7 +9493,7 @@ exports.data = [
     generation: "generation-vi",
     pokemonData: [
       {
-        id: 650,
+        index: 650,
         name: "chespin",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png",
@@ -9505,7 +9505,7 @@ exports.data = [
         ],
       },
       {
-        id: 653,
+        index: 653,
         name: "fennekin",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
@@ -9517,7 +9517,7 @@ exports.data = [
         ],
       },
       {
-        id: 656,
+        index: 656,
         name: "froakie",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
@@ -9529,7 +9529,7 @@ exports.data = [
         ],
       },
       {
-        id: 659,
+        index: 659,
         name: "bunnelby",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png",
@@ -9541,7 +9541,7 @@ exports.data = [
         ],
       },
       {
-        id: 661,
+        index: 661,
         name: "fletchling",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png",
@@ -9557,7 +9557,7 @@ exports.data = [
         ],
       },
       {
-        id: 664,
+        index: 664,
         name: "scatterbug",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png",
@@ -9569,7 +9569,7 @@ exports.data = [
         ],
       },
       {
-        id: 667,
+        index: 667,
         name: "litleo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png",
@@ -9585,7 +9585,7 @@ exports.data = [
         ],
       },
       {
-        id: 669,
+        index: 669,
         name: "flabebe",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png",
@@ -9597,7 +9597,7 @@ exports.data = [
         ],
       },
       {
-        id: 672,
+        index: 672,
         name: "skiddo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png",
@@ -9609,7 +9609,7 @@ exports.data = [
         ],
       },
       {
-        id: 674,
+        index: 674,
         name: "pancham",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
@@ -9624,7 +9624,7 @@ exports.data = [
         ],
       },
       {
-        id: 676,
+        index: 676,
         name: "furfrou",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/676.png",
@@ -9636,7 +9636,7 @@ exports.data = [
         ],
       },
       {
-        id: 677,
+        index: 677,
         name: "espurr",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png",
@@ -9651,7 +9651,7 @@ exports.data = [
         ],
       },
       {
-        id: 679,
+        index: 679,
         name: "honedge",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png",
@@ -9667,7 +9667,7 @@ exports.data = [
         ],
       },
       {
-        id: 682,
+        index: 682,
         name: "spritzee",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
@@ -9679,7 +9679,7 @@ exports.data = [
         ],
       },
       {
-        id: 684,
+        index: 684,
         name: "swirlix",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
@@ -9691,7 +9691,7 @@ exports.data = [
         ],
       },
       {
-        id: 686,
+        index: 686,
         name: "inkay",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png",
@@ -9710,7 +9710,7 @@ exports.data = [
         ],
       },
       {
-        id: 688,
+        index: 688,
         name: "binacle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png",
@@ -9726,7 +9726,7 @@ exports.data = [
         ],
       },
       {
-        id: 690,
+        index: 690,
         name: "skrelp",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png",
@@ -9742,7 +9742,7 @@ exports.data = [
         ],
       },
       {
-        id: 692,
+        index: 692,
         name: "clauncher",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png",
@@ -9754,7 +9754,7 @@ exports.data = [
         ],
       },
       {
-        id: 694,
+        index: 694,
         name: "helioptile",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png",
@@ -9773,7 +9773,7 @@ exports.data = [
         ],
       },
       {
-        id: 696,
+        index: 696,
         name: "tyrunt",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png",
@@ -9789,7 +9789,7 @@ exports.data = [
         ],
       },
       {
-        id: 698,
+        index: 698,
         name: "amaura",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png",
@@ -9805,7 +9805,7 @@ exports.data = [
         ],
       },
       {
-        id: 701,
+        index: 701,
         name: "hawlucha",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/701.png",
@@ -9824,7 +9824,7 @@ exports.data = [
         ],
       },
       {
-        id: 702,
+        index: 702,
         name: "dedenne",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/702.png",
@@ -9843,7 +9843,7 @@ exports.data = [
         ],
       },
       {
-        id: 703,
+        index: 703,
         name: "carbink",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png",
@@ -9859,7 +9859,7 @@ exports.data = [
         ],
       },
       {
-        id: 704,
+        index: 704,
         name: "goomy",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png",
@@ -9871,7 +9871,7 @@ exports.data = [
         ],
       },
       {
-        id: 707,
+        index: 707,
         name: "klefki",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png",
@@ -9887,7 +9887,7 @@ exports.data = [
         ],
       },
       {
-        id: 708,
+        index: 708,
         name: "phantump",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png",
@@ -9903,7 +9903,7 @@ exports.data = [
         ],
       },
       {
-        id: 710,
+        index: 710,
         name: "pumpkaboo-average",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png",
@@ -9919,7 +9919,7 @@ exports.data = [
         ],
       },
       {
-        id: 712,
+        index: 712,
         name: "bergmite",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
@@ -9931,7 +9931,7 @@ exports.data = [
         ],
       },
       {
-        id: 714,
+        index: 714,
         name: "noibat",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
@@ -9947,7 +9947,7 @@ exports.data = [
         ],
       },
       {
-        id: 716,
+        index: 716,
         name: "xerneas",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
@@ -9959,7 +9959,7 @@ exports.data = [
         ],
       },
       {
-        id: 717,
+        index: 717,
         name: "yveltal",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png",
@@ -9975,7 +9975,7 @@ exports.data = [
         ],
       },
       {
-        id: 651,
+        index: 651,
         name: "quilladin",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png",
@@ -9987,7 +9987,7 @@ exports.data = [
         ],
       },
       {
-        id: 652,
+        index: 652,
         name: "chesnaught",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png",
@@ -10006,7 +10006,7 @@ exports.data = [
         ],
       },
       {
-        id: 654,
+        index: 654,
         name: "braixen",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png",
@@ -10018,7 +10018,7 @@ exports.data = [
         ],
       },
       {
-        id: 655,
+        index: 655,
         name: "delphox",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png",
@@ -10037,7 +10037,7 @@ exports.data = [
         ],
       },
       {
-        id: 657,
+        index: 657,
         name: "frogadier",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png",
@@ -10049,7 +10049,7 @@ exports.data = [
         ],
       },
       {
-        id: 658,
+        index: 658,
         name: "greninja",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
@@ -10065,7 +10065,7 @@ exports.data = [
         ],
       },
       {
-        id: 660,
+        index: 660,
         name: "diggersby",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png",
@@ -10081,7 +10081,7 @@ exports.data = [
         ],
       },
       {
-        id: 663,
+        index: 663,
         name: "talonflame",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
@@ -10097,7 +10097,7 @@ exports.data = [
         ],
       },
       {
-        id: 665,
+        index: 665,
         name: "spewpa",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/665.png",
@@ -10109,7 +10109,7 @@ exports.data = [
         ],
       },
       {
-        id: 666,
+        index: 666,
         name: "vivillon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png",
@@ -10125,7 +10125,7 @@ exports.data = [
         ],
       },
       {
-        id: 668,
+        index: 668,
         name: "pyroar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png",
@@ -10141,7 +10141,7 @@ exports.data = [
         ],
       },
       {
-        id: 670,
+        index: 670,
         name: "floette",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png",
@@ -10153,7 +10153,7 @@ exports.data = [
         ],
       },
       {
-        id: 671,
+        index: 671,
         name: "florges",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png",
@@ -10165,7 +10165,7 @@ exports.data = [
         ],
       },
       {
-        id: 673,
+        index: 673,
         name: "gogoat",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png",
@@ -10177,7 +10177,7 @@ exports.data = [
         ],
       },
       {
-        id: 675,
+        index: 675,
         name: "pangoro",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png",
@@ -10196,7 +10196,7 @@ exports.data = [
         ],
       },
       {
-        id: 678,
+        index: 678,
         name: "meowstic-male",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png",
@@ -10211,7 +10211,7 @@ exports.data = [
         ],
       },
       {
-        id: 680,
+        index: 680,
         name: "doublade",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png",
@@ -10227,7 +10227,7 @@ exports.data = [
         ],
       },
       {
-        id: 681,
+        index: 681,
         name: "aegislash-shield",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png",
@@ -10243,7 +10243,7 @@ exports.data = [
         ],
       },
       {
-        id: 683,
+        index: 683,
         name: "aromatisse",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png",
@@ -10255,7 +10255,7 @@ exports.data = [
         ],
       },
       {
-        id: 687,
+        index: 687,
         name: "malamar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png",
@@ -10274,7 +10274,7 @@ exports.data = [
         ],
       },
       {
-        id: 689,
+        index: 689,
         name: "barbaracle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png",
@@ -10290,7 +10290,7 @@ exports.data = [
         ],
       },
       {
-        id: 691,
+        index: 691,
         name: "dragalge",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png",
@@ -10306,7 +10306,7 @@ exports.data = [
         ],
       },
       {
-        id: 693,
+        index: 693,
         name: "clawitzer",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png",
@@ -10318,7 +10318,7 @@ exports.data = [
         ],
       },
       {
-        id: 695,
+        index: 695,
         name: "heliolisk",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png",
@@ -10337,7 +10337,7 @@ exports.data = [
         ],
       },
       {
-        id: 697,
+        index: 697,
         name: "tyrantrum",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png",
@@ -10353,7 +10353,7 @@ exports.data = [
         ],
       },
       {
-        id: 699,
+        index: 699,
         name: "aurorus",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png",
@@ -10369,7 +10369,7 @@ exports.data = [
         ],
       },
       {
-        id: 700,
+        index: 700,
         name: "sylveon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png",
@@ -10381,7 +10381,7 @@ exports.data = [
         ],
       },
       {
-        id: 705,
+        index: 705,
         name: "sliggoo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png",
@@ -10393,7 +10393,7 @@ exports.data = [
         ],
       },
       {
-        id: 706,
+        index: 706,
         name: "goodra",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png",
@@ -10405,7 +10405,7 @@ exports.data = [
         ],
       },
       {
-        id: 709,
+        index: 709,
         name: "trevenant",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png",
@@ -10421,7 +10421,7 @@ exports.data = [
         ],
       },
       {
-        id: 713,
+        index: 713,
         name: "avalugg",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png",
@@ -10433,7 +10433,7 @@ exports.data = [
         ],
       },
       {
-        id: 715,
+        index: 715,
         name: "noivern",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
@@ -10449,7 +10449,7 @@ exports.data = [
         ],
       },
       {
-        id: 718,
+        index: 718,
         name: "zygarde",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png",
@@ -10465,7 +10465,7 @@ exports.data = [
         ],
       },
       {
-        id: 719,
+        index: 719,
         name: "diancie",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/719.png",
@@ -10481,7 +10481,7 @@ exports.data = [
         ],
       },
       {
-        id: 720,
+        index: 720,
         name: "hoopa",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/720.png",
@@ -10500,7 +10500,7 @@ exports.data = [
         ],
       },
       {
-        id: 721,
+        index: 721,
         name: "volcanion",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/721.png",
@@ -10516,7 +10516,7 @@ exports.data = [
         ],
       },
       {
-        id: 662,
+        index: 662,
         name: "fletchinder",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png",
@@ -10532,7 +10532,7 @@ exports.data = [
         ],
       },
       {
-        id: 685,
+        index: 685,
         name: "slurpuff",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png",
@@ -10544,7 +10544,7 @@ exports.data = [
         ],
       },
       {
-        id: 711,
+        index: 711,
         name: "gourgeist-average",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png",
@@ -10565,7 +10565,7 @@ exports.data = [
     generation: "generation-vii",
     pokemonData: [
       {
-        id: 722,
+        index: 722,
         name: "rowlet",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png",
@@ -10581,7 +10581,7 @@ exports.data = [
         ],
       },
       {
-        id: 725,
+        index: 725,
         name: "litten",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png",
@@ -10593,7 +10593,7 @@ exports.data = [
         ],
       },
       {
-        id: 728,
+        index: 728,
         name: "popplio",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/728.png",
@@ -10605,7 +10605,7 @@ exports.data = [
         ],
       },
       {
-        id: 731,
+        index: 731,
         name: "pikipek",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png",
@@ -10621,7 +10621,7 @@ exports.data = [
         ],
       },
       {
-        id: 734,
+        index: 734,
         name: "yungoos",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png",
@@ -10633,7 +10633,7 @@ exports.data = [
         ],
       },
       {
-        id: 736,
+        index: 736,
         name: "grubbin",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png",
@@ -10645,7 +10645,7 @@ exports.data = [
         ],
       },
       {
-        id: 739,
+        index: 739,
         name: "crabrawler",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png",
@@ -10660,7 +10660,7 @@ exports.data = [
         ],
       },
       {
-        id: 741,
+        index: 741,
         name: "oricorio-baile",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/741.png",
@@ -10676,7 +10676,7 @@ exports.data = [
         ],
       },
       {
-        id: 742,
+        index: 742,
         name: "cutiefly",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/742.png",
@@ -10692,7 +10692,7 @@ exports.data = [
         ],
       },
       {
-        id: 744,
+        index: 744,
         name: "rockruff",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png",
@@ -10704,7 +10704,7 @@ exports.data = [
         ],
       },
       {
-        id: 746,
+        index: 746,
         name: "wishiwashi-solo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png",
@@ -10716,7 +10716,7 @@ exports.data = [
         ],
       },
       {
-        id: 747,
+        index: 747,
         name: "mareanie",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png",
@@ -10732,7 +10732,7 @@ exports.data = [
         ],
       },
       {
-        id: 749,
+        index: 749,
         name: "mudbray",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png",
@@ -10744,7 +10744,7 @@ exports.data = [
         ],
       },
       {
-        id: 751,
+        index: 751,
         name: "dewpider",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png",
@@ -10760,7 +10760,7 @@ exports.data = [
         ],
       },
       {
-        id: 753,
+        index: 753,
         name: "fomantis",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png",
@@ -10772,7 +10772,7 @@ exports.data = [
         ],
       },
       {
-        id: 755,
+        index: 755,
         name: "morelull",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png",
@@ -10788,7 +10788,7 @@ exports.data = [
         ],
       },
       {
-        id: 757,
+        index: 757,
         name: "salandit",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png",
@@ -10804,7 +10804,7 @@ exports.data = [
         ],
       },
       {
-        id: 759,
+        index: 759,
         name: "stufful",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png",
@@ -10823,7 +10823,7 @@ exports.data = [
         ],
       },
       {
-        id: 761,
+        index: 761,
         name: "bounsweet",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png",
@@ -10835,7 +10835,7 @@ exports.data = [
         ],
       },
       {
-        id: 764,
+        index: 764,
         name: "comfey",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
@@ -10847,7 +10847,7 @@ exports.data = [
         ],
       },
       {
-        id: 765,
+        index: 765,
         name: "oranguru",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/765.png",
@@ -10866,7 +10866,7 @@ exports.data = [
         ],
       },
       {
-        id: 766,
+        index: 766,
         name: "passimian",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/766.png",
@@ -10881,7 +10881,7 @@ exports.data = [
         ],
       },
       {
-        id: 767,
+        index: 767,
         name: "wimpod",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png",
@@ -10897,7 +10897,7 @@ exports.data = [
         ],
       },
       {
-        id: 769,
+        index: 769,
         name: "sandygast",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png",
@@ -10913,7 +10913,7 @@ exports.data = [
         ],
       },
       {
-        id: 771,
+        index: 771,
         name: "pyukumuku",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png",
@@ -10925,7 +10925,7 @@ exports.data = [
         ],
       },
       {
-        id: 772,
+        index: 772,
         name: "type-null",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png",
@@ -10937,7 +10937,7 @@ exports.data = [
         ],
       },
       {
-        id: 774,
+        index: 774,
         name: "minior-red-meteor",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png",
@@ -10953,7 +10953,7 @@ exports.data = [
         ],
       },
       {
-        id: 775,
+        index: 775,
         name: "komala",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/775.png",
@@ -10965,7 +10965,7 @@ exports.data = [
         ],
       },
       {
-        id: 776,
+        index: 776,
         name: "turtonator",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/776.png",
@@ -10981,7 +10981,7 @@ exports.data = [
         ],
       },
       {
-        id: 777,
+        index: 777,
         name: "togedemaru",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/777.png",
@@ -11000,7 +11000,7 @@ exports.data = [
         ],
       },
       {
-        id: 778,
+        index: 778,
         name: "mimikyu-disguised",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png",
@@ -11016,7 +11016,7 @@ exports.data = [
         ],
       },
       {
-        id: 779,
+        index: 779,
         name: "bruxish",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/779.png",
@@ -11035,7 +11035,7 @@ exports.data = [
         ],
       },
       {
-        id: 780,
+        index: 780,
         name: "drampa",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/780.png",
@@ -11051,7 +11051,7 @@ exports.data = [
         ],
       },
       {
-        id: 781,
+        index: 781,
         name: "dhelmise",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png",
@@ -11067,7 +11067,7 @@ exports.data = [
         ],
       },
       {
-        id: 782,
+        index: 782,
         name: "jangmo-o",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/782.png",
@@ -11079,7 +11079,7 @@ exports.data = [
         ],
       },
       {
-        id: 785,
+        index: 785,
         name: "tapu-koko",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png",
@@ -11098,7 +11098,7 @@ exports.data = [
         ],
       },
       {
-        id: 786,
+        index: 786,
         name: "tapu-lele",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png",
@@ -11117,7 +11117,7 @@ exports.data = [
         ],
       },
       {
-        id: 787,
+        index: 787,
         name: "tapu-bulu",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png",
@@ -11133,7 +11133,7 @@ exports.data = [
         ],
       },
       {
-        id: 788,
+        index: 788,
         name: "tapu-fini",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png",
@@ -11149,7 +11149,7 @@ exports.data = [
         ],
       },
       {
-        id: 789,
+        index: 789,
         name: "cosmog",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png",
@@ -11164,7 +11164,7 @@ exports.data = [
         ],
       },
       {
-        id: 793,
+        index: 793,
         name: "nihilego",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png",
@@ -11180,7 +11180,7 @@ exports.data = [
         ],
       },
       {
-        id: 794,
+        index: 794,
         name: "buzzwole",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/794.png",
@@ -11199,7 +11199,7 @@ exports.data = [
         ],
       },
       {
-        id: 795,
+        index: 795,
         name: "pheromosa",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png",
@@ -11218,7 +11218,7 @@ exports.data = [
         ],
       },
       {
-        id: 796,
+        index: 796,
         name: "xurkitree",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png",
@@ -11233,7 +11233,7 @@ exports.data = [
         ],
       },
       {
-        id: 797,
+        index: 797,
         name: "celesteela",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png",
@@ -11249,7 +11249,7 @@ exports.data = [
         ],
       },
       {
-        id: 798,
+        index: 798,
         name: "kartana",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png",
@@ -11265,7 +11265,7 @@ exports.data = [
         ],
       },
       {
-        id: 724,
+        index: 724,
         name: "decidueye",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png",
@@ -11281,7 +11281,7 @@ exports.data = [
         ],
       },
       {
-        id: 726,
+        index: 726,
         name: "torracat",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png",
@@ -11293,7 +11293,7 @@ exports.data = [
         ],
       },
       {
-        id: 727,
+        index: 727,
         name: "incineroar",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png",
@@ -11309,7 +11309,7 @@ exports.data = [
         ],
       },
       {
-        id: 729,
+        index: 729,
         name: "brionne",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/729.png",
@@ -11321,7 +11321,7 @@ exports.data = [
         ],
       },
       {
-        id: 730,
+        index: 730,
         name: "primarina",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png",
@@ -11337,7 +11337,7 @@ exports.data = [
         ],
       },
       {
-        id: 733,
+        index: 733,
         name: "toucannon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png",
@@ -11353,7 +11353,7 @@ exports.data = [
         ],
       },
       {
-        id: 735,
+        index: 735,
         name: "gumshoos",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png",
@@ -11365,7 +11365,7 @@ exports.data = [
         ],
       },
       {
-        id: 737,
+        index: 737,
         name: "charjabug",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png",
@@ -11384,7 +11384,7 @@ exports.data = [
         ],
       },
       {
-        id: 738,
+        index: 738,
         name: "vikavolt",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png",
@@ -11403,7 +11403,7 @@ exports.data = [
         ],
       },
       {
-        id: 740,
+        index: 740,
         name: "crabominable",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png",
@@ -11422,7 +11422,7 @@ exports.data = [
         ],
       },
       {
-        id: 743,
+        index: 743,
         name: "ribombee",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/743.png",
@@ -11438,7 +11438,7 @@ exports.data = [
         ],
       },
       {
-        id: 745,
+        index: 745,
         name: "lycanroc-midday",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png",
@@ -11450,7 +11450,7 @@ exports.data = [
         ],
       },
       {
-        id: 748,
+        index: 748,
         name: "toxapex",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png",
@@ -11466,7 +11466,7 @@ exports.data = [
         ],
       },
       {
-        id: 750,
+        index: 750,
         name: "mudsdale",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png",
@@ -11478,7 +11478,7 @@ exports.data = [
         ],
       },
       {
-        id: 752,
+        index: 752,
         name: "araquanid",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png",
@@ -11494,7 +11494,7 @@ exports.data = [
         ],
       },
       {
-        id: 756,
+        index: 756,
         name: "shiinotic",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png",
@@ -11510,7 +11510,7 @@ exports.data = [
         ],
       },
       {
-        id: 758,
+        index: 758,
         name: "salazzle",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
@@ -11526,7 +11526,7 @@ exports.data = [
         ],
       },
       {
-        id: 760,
+        index: 760,
         name: "bewear",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png",
@@ -11545,7 +11545,7 @@ exports.data = [
         ],
       },
       {
-        id: 762,
+        index: 762,
         name: "steenee",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png",
@@ -11557,7 +11557,7 @@ exports.data = [
         ],
       },
       {
-        id: 763,
+        index: 763,
         name: "tsareena",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
@@ -11569,7 +11569,7 @@ exports.data = [
         ],
       },
       {
-        id: 768,
+        index: 768,
         name: "golisopod",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png",
@@ -11585,7 +11585,7 @@ exports.data = [
         ],
       },
       {
-        id: 770,
+        index: 770,
         name: "palossand",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png",
@@ -11601,7 +11601,7 @@ exports.data = [
         ],
       },
       {
-        id: 773,
+        index: 773,
         name: "silvally",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png",
@@ -11613,7 +11613,7 @@ exports.data = [
         ],
       },
       {
-        id: 783,
+        index: 783,
         name: "hakamo-o",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/783.png",
@@ -11632,7 +11632,7 @@ exports.data = [
         ],
       },
       {
-        id: 784,
+        index: 784,
         name: "kommo-o",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png",
@@ -11651,7 +11651,7 @@ exports.data = [
         ],
       },
       {
-        id: 791,
+        index: 791,
         name: "solgaleo",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png",
@@ -11670,7 +11670,7 @@ exports.data = [
         ],
       },
       {
-        id: 792,
+        index: 792,
         name: "lunala",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png",
@@ -11689,7 +11689,7 @@ exports.data = [
         ],
       },
       {
-        id: 799,
+        index: 799,
         name: "guzzlord",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/799.png",
@@ -11705,7 +11705,7 @@ exports.data = [
         ],
       },
       {
-        id: 800,
+        index: 800,
         name: "necrozma",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/800.png",
@@ -11720,7 +11720,7 @@ exports.data = [
         ],
       },
       {
-        id: 801,
+        index: 801,
         name: "magearna",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/801.png",
@@ -11736,7 +11736,7 @@ exports.data = [
         ],
       },
       {
-        id: 802,
+        index: 802,
         name: "marshadow",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/802.png",
@@ -11755,7 +11755,7 @@ exports.data = [
         ],
       },
       {
-        id: 803,
+        index: 803,
         name: "poipole",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png",
@@ -11767,7 +11767,7 @@ exports.data = [
         ],
       },
       {
-        id: 805,
+        index: 805,
         name: "stakataka",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/805.png",
@@ -11783,7 +11783,7 @@ exports.data = [
         ],
       },
       {
-        id: 806,
+        index: 806,
         name: "blacephalon",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/806.png",
@@ -11799,7 +11799,7 @@ exports.data = [
         ],
       },
       {
-        id: 807,
+        index: 807,
         name: "zeraora",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/807.png",
@@ -11814,7 +11814,7 @@ exports.data = [
         ],
       },
       {
-        id: 723,
+        index: 723,
         name: "dartrix",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png",
@@ -11830,7 +11830,7 @@ exports.data = [
         ],
       },
       {
-        id: 732,
+        index: 732,
         name: "trumbeak",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png",
@@ -11846,7 +11846,7 @@ exports.data = [
         ],
       },
       {
-        id: 754,
+        index: 754,
         name: "lurantis",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png",
@@ -11858,7 +11858,7 @@ exports.data = [
         ],
       },
       {
-        id: 790,
+        index: 790,
         name: "cosmoem",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/790.png",
@@ -11873,7 +11873,7 @@ exports.data = [
         ],
       },
       {
-        id: 804,
+        index: 804,
         name: "naganadel",
         sprite:
           "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png",
