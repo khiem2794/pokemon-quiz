@@ -76,35 +76,63 @@ exports.sourceNodes = async ({
   createNodeId,
   createContentDigest,
 }) => {
-  const gens = await getGenerations()
+  // const gens = await getGenerations()
 
-  const pokemonSpecies = await Promise.all(
-    gens.map(async gen => {
-      const species = await getGenSpecies(gen.url)
-      return { generation: gen.name, species: species }
-    })
-  )
-  const gensData = await Promise.all(
-    pokemonSpecies.map(async p => {
-      const data = await Promise.all(
-        p.species.map(async s => {
-          return await getPokemonData(
-            s.url.replace("pokemon-species", "pokemon")
-          )
-        })
-      )
-      return { generation: p.generation, pokemonData: data }
-    })
-  )
+  // const pokemonSpecies = await Promise.all(
+  //   gens.map(async gen => {
+  //     const species = await getGenSpecies(gen.url)
+  //     return { generation: gen.name, species: species }
+  //   })
+  // )
+  // const gensData = await Promise.all(
+  //   pokemonSpecies.map(async p => {
+  //     const data = await Promise.all(
+  //       p.species.map(async s => {
+  //         return await getPokemonData(
+  //           s.url.replace("pokemon-species", "pokemon")
+  //         )
+  //       })
+  //     )
+  //     return { generation: p.generation, pokemonData: data }
+  //   })
+  // )
 
-  // var gensData = require("./temp.js").data  //use this for faster start
+  var gensData = require("./temp.js").data //use this for faster start
+
+  gensData.map(gen => {
+    gen.pokemonData.map(pokemon => {
+      createNode({
+        ...pokemon,
+        id: createNodeId(pokemon.name),
+        internal: {
+          type: `Pokemon`,
+          contentDigest: createContentDigest(pokemon),
+        },
+      })
+    })
+  })
 
   return gensData.map(gen => {
+    const genNodeId = createNodeId(gen.generation)
+
     createNode({
-      ...gen,
-      id: createNodeId(gen.generation),
+      generation: gen.generation,
+      id: genNodeId,
+      children: gen.pokemonData.map(pokemon => {
+        const pkmNodeId = createNodeId(pokemon.name)
+        createNode({
+          id: createNodeId(pokemon.name),
+          parent: genNodeId,
+          ...pokemon,
+          internal: {
+            type: `Pokemon`,
+            contentDigest: createContentDigest(pokemon),
+          },
+        })
+        return pkmNodeId
+      }),
       internal: {
-        type: `Pokemon`,
+        type: `Generation`,
         contentDigest: createContentDigest(gen),
       },
     })
