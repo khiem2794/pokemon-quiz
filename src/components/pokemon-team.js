@@ -4,7 +4,9 @@ import { PokemonContext } from "../context/context"
 import { Grid } from "@material-ui/core"
 
 export default function PokemonTeam() {
-  const team = useContext(PokemonContext).pokemonState.team
+  const {
+    pokemonState: { team },
+  } = useContext(PokemonContext)
   return (
     <div>
       <h2>YOUR TEAM</h2>
