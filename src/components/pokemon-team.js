@@ -13,11 +13,8 @@ export default function PokemonTeam() {
       <Grid container>
         {team.map(pokemon => {
           return (
-            <Grid item xs={2}>
-              <SelectPokemonBox
-                pokemonData={{ ...pokemon }}
-                key={pokemon.index}
-              />
+            <Grid item xs={2} key={pokemon.index}>
+              <SelectPokemonBox pokemonData={{ ...pokemon }} />
             </Grid>
           )
         })}

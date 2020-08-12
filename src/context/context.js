@@ -18,7 +18,7 @@ const reducer = (state, action) => {
   }
 
   if (action.type === ADD_POKEMON) {
-    return { ...state, team: state.team.concat(action.payload.pokemonData) }
+    return { ...state, team: [...state.team, action.payload.pokemonData] }
   }
 
   if (action.type === REMOVE_POKEMON) {
