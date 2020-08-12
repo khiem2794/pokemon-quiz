@@ -1,9 +1,18 @@
 import React from "react"
+import { Box } from "@material-ui/core"
 
-export default function SelectPokemonBox({ pokemonData }) {
+export default function SelectPokemonBox({ pokemonData, isSelected }) {
   return (
     <div>
-      <img src={pokemonData.sprite} alt={pokemonData.name} />
+      {isSelected ? (
+        <Box border={1}>
+          <img src={pokemonData.sprite} alt={pokemonData.name} />
+        </Box>
+      ) : (
+        <Box>
+          <img src={pokemonData.sprite} alt={pokemonData.name} />
+        </Box>
+      )}
     </div>
   )
 }

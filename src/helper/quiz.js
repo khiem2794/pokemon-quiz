@@ -99,13 +99,13 @@ export const generateQuiz = async (team, n1, n2) => {
   var quizList = await Promise.all(
     [...randomMovesFromTeam, ...randomMovesFromApi].map(async m => {
       const moveData = await getMoveData(m.index)
-      const answer = updatedTeam.filter(
+      const answers = updatedTeam.filter(
         pokemon =>
           pokemon.moves.findIndex(move => move.index === moveData.index) !== -1
       )
       return {
         move: moveData,
-        answer: answer,
+        answers: answers,
       }
     })
   )

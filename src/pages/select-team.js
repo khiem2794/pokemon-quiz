@@ -17,7 +17,7 @@ const SelectTeam = ({ data }) => {
       }),
     }
   })
-  const { pokemonState, startQuiz } = useContext(PokemonContext)
+  const { pokemonState, startQuiz, removePokemon } = useContext(PokemonContext)
   const onClick = e => {
     if (pokemonState.team.length > 0) {
       startQuiz()
@@ -32,7 +32,7 @@ const SelectTeam = ({ data }) => {
         <GenerationsTabs generations={generations} />
       </Grid>
       <Grid item xs={12}>
-        <PokemonTeam />
+        <PokemonTeam onPokemonClick={removePokemon} />
         <Button variant="contained" onClick={e => onClick(e)}>
           START QUIZ
         </Button>

@@ -31,7 +31,6 @@ const reducer = (state, action) => {
   }
 
   if (action.type === START_QUIZ) {
-    console.log(START_QUIZ)
     return { ...state }
   }
 }
