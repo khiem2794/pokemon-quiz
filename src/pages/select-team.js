@@ -48,14 +48,11 @@ export const query = graphql`
         node {
           generation
           childrenPokemon {
-            name
             index
+            name
             sprite
-            types {
-              type {
-                name
-              }
-            }
+            sprite2
+            types
           }
         }
       }

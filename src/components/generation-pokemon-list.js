@@ -33,7 +33,7 @@ export default function GenerationPokemonList({ generation }) {
 
   return (
     <div className={classes.root}>
-      <GridList cellHeight="auto" className={classes.gridList} cols={10}>
+      <GridList cellHeight="auto" className={classes.gridList} cols={8}>
         {generation.pokemons.map(pokemon => {
           return (
             <GridListTile cols={1} key={pokemon.index}>

@@ -61,10 +61,14 @@ const getPokemonData = url => {
     .get(url)
     .then(res => {
       const data = {
-        id: res.data.id,
+        index: res.data.id,
         name: res.data.name,
         sprite: res.data.sprites.front_default,
-        types: res.data.types,
+        sprite2:
+          "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/" +
+          ("00" + res.data.id).slice(-3) +
+          ".png",
+        types: res.data.types.map(t => t.type.name),
       }
       return data
     })
@@ -95,6 +99,14 @@ exports.sourceNodes = async ({
   //     )
   //     return { generation: p.generation, pokemonData: data }
   //   })
+  // )
+
+  // var fs = require("fs")
+
+  // fs.writeFileSync(
+  //   "./temp.js",
+  //   "exports.data = " + JSON.stringify(gensData),
+  //   "utf-8"
   // )
 
   var gensData = require("./temp.js").data //use this for faster start

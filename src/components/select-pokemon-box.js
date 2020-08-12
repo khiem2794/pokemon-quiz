@@ -6,11 +6,11 @@ export default function SelectPokemonBox({ pokemonData, isSelected }) {
     <div>
       {isSelected ? (
         <Box border={1}>
-          <img src={pokemonData.sprite} alt={pokemonData.name} />
+          <img src={pokemonData.sprite2} alt={pokemonData.name} />
         </Box>
       ) : (
         <Box>
-          <img src={pokemonData.sprite} alt={pokemonData.name} />
+          <img src={pokemonData.sprite2} alt={pokemonData.name} />
         </Box>
       )}
     </div>
