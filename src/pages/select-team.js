@@ -50,9 +50,14 @@ export const query = graphql`
           childrenPokemon {
             index
             name
-            sprite
-            sprite2
             types
+            localImage {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
