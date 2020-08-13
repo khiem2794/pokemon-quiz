@@ -27,7 +27,7 @@ const MoveQuiz = () => {
   const [quizList, setQuizList] = useState([])
   useEffect(() => {
     const fetchQuiz = async () => {
-      const quizList = await generateQuiz(team, 5, 7)
+      const quizList = await generateQuiz(team, 7, 5)
       setQuizList(quizList)
     }
     fetchQuiz().then(res => setQuizState({ ...quizState, state: START_QUIZ }))
@@ -101,53 +101,83 @@ const MoveQuiz = () => {
     <Layout>
       <SEO title="Move quiz" />
 
-      {quizState.state === GENERATE_QUIZ && (
-        <Grid item xs={12} style={{ textAlign: "center" }}>
-          <CircularProgress /> GENERATING QUIZ
-        </Grid>
-      )}
-      {quizState.state === START_QUIZ && (
-        <Grid item xs={12} style={{ textAlign: "center" }}>
-          SCORE: {quizState.score}
-          <br />
-          QUESTION {quizState.quizIndex + 1}/{quizList.length} <br />
-          WHICH POKEMONS CAN LEARN THIS MOVE
-          <PokemonMoveCard moveData={quizList[quizState.quizIndex].move} />
-        </Grid>
-      )}
-      {quizState.state === END_QUIZ && (
-        <Grid item xs={12} style={{ textAlign: "center" }}>
-          FINAL SCORE: {quizState.score}
-        </Grid>
-      )}
-      <Grid item xs={12}>
+      <Grid item xs={12} md={10} lg={9} xl={8} style={{ textAlign: "center" }}>
+        {quizState.state === GENERATE_QUIZ && (
+          <div>
+            <CircularProgress /> GENERATING QUIZ
+          </div>
+        )}
+
+        {quizState.state === START_QUIZ && (
+          <div>
+            <h3>
+              QUESTION {quizState.quizIndex + 1}/{quizList.length}
+              <br></br>
+              WHICH POKEMONS CAN USE THIS MOVE
+            </h3>
+            <PokemonMoveCard moveData={quizList[quizState.quizIndex].move} />
+          </div>
+        )}
+
+        {quizState.state === END_QUIZ && (
+          <div>FINAL SCORE: {quizState.score}</div>
+        )}
+      </Grid>
+
+      <Grid item xs={12} md={10} lg={9} xl={8}>
+        <h2>
+          Your pokemons<br></br>Point: {quizState.score}
+        </h2>
         <PokemonTeam
           onPokemonClick={pickPokemon}
           answers={quizState.answers.map(e => e.index)}
         />
-        {quizState.state === START_QUIZ && (
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={e => submitAnswer()}
-          >
-            ANSWER
-          </Button>
-        )}
-        {quizState.state === END_QUIZ && (
-          <div>
-            <Button variant="contained" color="primary" onClick={e => retry()}>
-              RETRY WITH CURRENT TEAM
-            </Button>
-            <Button
-              variant="contained"
-              color="secondary"
-              onClick={e => pickNewTeam()}
+        <Grid
+          container
+          direction="row"
+          justify="center"
+          alignItems="center"
+          style={{ paddingTop: 25 }}
+        >
+          {quizState.state === START_QUIZ && (
+            <Grid item style={{ textAlign: "center" }}>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={e => submitAnswer()}
+              >
+                ANSWER
+              </Button>
+            </Grid>
+          )}
+          {quizState.state === END_QUIZ && (
+            <Grid
+              container
+              direction="row"
+              justify="center"
+              alignItems="center"
             >
-              SELECT NEW TEAM
-            </Button>
-          </div>
-        )}
+              <Grid item xs={3} style={{ textAlign: "center" }}>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  onClick={e => retry()}
+                >
+                  RETRY WITH CURRENT TEAM
+                </Button>
+              </Grid>
+              <Grid item xs={3} style={{ textAlign: "center" }}>
+                <Button
+                  variant="contained"
+                  color="secondary"
+                  onClick={e => pickNewTeam()}
+                >
+                  SELECT NEW TEAM
+                </Button>
+              </Grid>
+            </Grid>
+          )}
+        </Grid>
       </Grid>
     </Layout>
   )

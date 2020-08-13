@@ -11,7 +11,7 @@ export default function SelectPokemonBox({ pokemonData, isSelected }) {
             alt={pokemonData.name}
             fluid={pokemonData.localImage.childImageSharp.fluid}
           />
-          {/* <img src={pokemonData.sprite2} alt={pokemonData.name} /> */}
+          {/* <img src={pokemonData.sprite2.url} alt={pokemonData.name} /> */}
         </Box>
       ) : (
         <Box>
@@ -19,7 +19,7 @@ export default function SelectPokemonBox({ pokemonData, isSelected }) {
             alt={pokemonData.name}
             fluid={pokemonData.localImage.childImageSharp.fluid}
           />
-          {/* <img src={pokemonData.sprite2} alt={pokemonData.name} /> */}
+          {/* <img src={pokemonData.sprite2.url} alt={pokemonData.name} /> */}
         </Box>
       )}
     </div>

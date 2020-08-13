@@ -111,3 +111,46 @@ export const generateQuiz = async (team, n1, n2) => {
   )
   return quizList
 }
+
+export const getTypeColor = type => {
+  switch (type) {
+    case "normal":
+      return "#a4acaf"
+    case "fighting":
+      return "#d56723"
+    case "flying":
+      return "#89f"
+    case "poison":
+      return "#b97fc9"
+    case "ground":
+      return "#db5"
+    case "rock":
+      return "#a38c21"
+    case "bug":
+      return "#729f3f"
+    case "ghost":
+      return "#7b62a3"
+    case "steel":
+      return "#9eb7b8"
+    case "fire":
+      return "#fd7d24"
+    case "water":
+      return "#4592c4"
+    case "grass":
+      return "#9bcc50"
+    case "electric":
+      return "#eed535"
+    case "psychic":
+      return "#f366b9"
+    case "ice":
+      return "#51c4e7"
+    case "dragon":
+      return "#76e"
+    case "dark":
+      return "#754"
+    case "fairy":
+      return "#fdb9e9"
+    default:
+      return "grey"
+  }
+}

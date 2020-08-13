@@ -8,7 +8,8 @@ import { PokemonContext } from "../context/context"
 
 const useStyles = makeStyles(theme => ({
   gridList: {
-    height: 450,
+    height: 350,
+    overflowY: "auto",
   },
 }))
 

@@ -28,14 +28,31 @@ const SelectTeam = ({ data }) => {
   return (
     <Layout>
       <SEO title="Select team" />
-      <Grid item xs={12}>
+      <Grid item xs={12} md={10} lg={9} xl={8}>
         <GenerationsTabs generations={generations} />
       </Grid>
-      <Grid item xs={12}>
+      <Grid item xs={12} md={10} lg={9} xl={8}>
+        <h2>Your pokemons</h2>
         <PokemonTeam onPokemonClick={removePokemon} />
-        <Button variant="contained" onClick={e => onClick(e)}>
-          START QUIZ
-        </Button>
+        {pokemonState.team.length > 0 && (
+          <Grid
+            container
+            direction="row"
+            justify="center"
+            alignItems="center"
+            style={{ paddingTop: 25 }}
+          >
+            <Grid item style={{ textAlign: "center" }}>
+              <Button
+                variant="contained"
+                onClick={e => onClick(e)}
+                color="primary"
+              >
+                START QUIZ
+              </Button>
+            </Grid>
+          </Grid>
+        )}
       </Grid>
     </Layout>
   )
@@ -48,9 +65,13 @@ export const query = graphql`
         node {
           generation
           childrenPokemon {
+            id
             index
             name
             types
+            sprite2 {
+              url
+            }
             localImage {
               childImageSharp {
                 fluid {
