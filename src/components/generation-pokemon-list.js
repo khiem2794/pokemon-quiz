@@ -7,13 +7,6 @@ import { Box } from "@material-ui/core"
 import { PokemonContext } from "../context/context"
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "space-around",
-    overflow: "hidden",
-    backgroundColor: theme.palette.background.paper,
-  },
   gridList: {
     height: 450,
   },
@@ -32,28 +25,30 @@ export default function GenerationPokemonList({ generation }) {
   }
 
   return (
-    <div className={classes.root}>
-      <GridList cellHeight="auto" className={classes.gridList} cols={8}>
-        {generation.pokemons.map(pokemon => {
-          return (
-            <GridListTile cols={1} key={pokemon.index}>
-              <Box
-                border={3}
-                borderColor={
-                  pokemonState.team.findIndex(
-                    p => p.index === pokemon.index
-                  ) !== -1
-                    ? "primary.main"
-                    : "white"
-                }
-                onClick={e => pickPokemon(e, pokemon)}
-              >
-                <SelectPokemonBox pokemonData={{ ...pokemon }} />
-              </Box>
-            </GridListTile>
-          )
-        })}
-      </GridList>
-    </div>
+    <GridList
+      className={classes.gridList}
+      cellHeight="auto"
+      cols={15}
+      spacing={0}
+    >
+      {generation.pokemons.map(pokemon => {
+        return (
+          <GridListTile cols={1} key={pokemon.index}>
+            <Box
+              border={3}
+              borderColor={
+                pokemonState.team.findIndex(p => p.index === pokemon.index) !==
+                -1
+                  ? "primary.main"
+                  : "white"
+              }
+              onClick={e => pickPokemon(e, pokemon)}
+            >
+              <SelectPokemonBox pokemonData={{ ...pokemon }} />
+            </Box>
+          </GridListTile>
+        )
+      })}
+    </GridList>
   )
 }

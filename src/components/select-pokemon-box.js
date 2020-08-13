@@ -1,16 +1,26 @@
 import React from "react"
 import { Box } from "@material-ui/core"
+import Img from "gatsby-image"
 
 export default function SelectPokemonBox({ pokemonData, isSelected }) {
+  console.log(pokemonData)
   return (
     <div>
       {isSelected ? (
         <Box border={1}>
-          <img src={pokemonData.sprite2} alt={pokemonData.name} />
+          <Img
+            alt={pokemonData.name}
+            fluid={pokemonData.localImage.childImageSharp.fluid}
+          />
+          {/* <img src={pokemonData.sprite2} alt={pokemonData.name} /> */}
         </Box>
       ) : (
         <Box>
-          <img src={pokemonData.sprite2} alt={pokemonData.name} />
+          <Img
+            alt={pokemonData.name}
+            fluid={pokemonData.localImage.childImageSharp.fluid}
+          />
+          {/* <img src={pokemonData.sprite2} alt={pokemonData.name} /> */}
         </Box>
       )}
     </div>
