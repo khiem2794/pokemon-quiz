@@ -38,9 +38,11 @@ const PokemonCard = ({ pokemonData, isSelected }) => {
                 padding: 0,
               }}
             >
-              <Typography variant="h5" component="h3">
-                {pokemonData.name.charAt(0).toUpperCase() +
-                  pokemonData.name.slice(1)}
+              <Typography>
+                <b>
+                  {pokemonData.name.charAt(0).toUpperCase() +
+                    pokemonData.name.slice(1)}
+                </b>
               </Typography>
             </CardContent>
             <Grid container>

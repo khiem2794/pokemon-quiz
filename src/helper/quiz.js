@@ -53,7 +53,9 @@ const getMoveData = async id => {
     .then(res => {
       return {
         index: res.data.id,
-        power: res.data.power ?? 0,
+        category: res.data.damage_class.name,
+        accuracy: res.data.accuracy ?? "-",
+        power: res.data.power ?? "-",
         pp: res.data.pp,
         type: res.data.type.name,
         flavorText: res.data.flavor_text_entries

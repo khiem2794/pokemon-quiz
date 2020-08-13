@@ -29,7 +29,7 @@ export default function GenerationPokemonList({ generation }) {
     <GridList
       className={classes.gridList}
       cellHeight="auto"
-      cols={15}
+      cols={10}
       spacing={0}
     >
       {generation.pokemons.map(pokemon => {

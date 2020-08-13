@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Pokemons Quiz`,
-    description: `How well do you know your team.`,
+    description: `How well do you know your pokemon team.`,
     author: `@ngockhiem27`,
   },
   plugins: [

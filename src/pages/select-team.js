@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import GenerationsTabs from "../components/generations-tabs"
 import PokemonTeam from "../components/pokemon-team"
-import { Button, Grid } from "@material-ui/core"
+import { Button, Grid, Typography } from "@material-ui/core"
 import { PokemonContext } from "../context/context"
 
 const SelectTeam = ({ data }) => {
@@ -28,6 +28,12 @@ const SelectTeam = ({ data }) => {
   return (
     <Layout>
       <SEO title="Select team" />
+
+      <Grid item xs={12} style={{ textAlign: "center", paddingBottom: 10 }}>
+        <Typography variant="h5" component="h4">
+          Pick pokemons for your team
+        </Typography>
+      </Grid>
       <Grid item xs={12} md={10} lg={9} xl={8}>
         <GenerationsTabs generations={generations} />
       </Grid>

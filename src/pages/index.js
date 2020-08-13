@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import TextField from "@material-ui/core/TextField"
 import Button from "@material-ui/core/Button"
 import { PokemonContext } from "../context/context"
-import { Grid } from "@material-ui/core"
+import { Grid, Typography } from "@material-ui/core"
 
 const IndexPage = () => {
   let playerName = ""
@@ -26,23 +26,32 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Grid item xs={4} sm={4} md={4} lg={4} xl={4}>
-        <form noValidate autoComplete="off">
-          <Grid container>
-            <Grid item xs={6} style={{ textAlign: "center" }}>
-              <TextField
-                id="standard-basic"
-                label="Player Name"
-                onChange={e => onChange(e)}
-              />
-            </Grid>
-            <Grid item xs={6} style={{ textAlign: "center" }}>
-              <Button variant="contained" onClick={e => onClick(e)}>
-                PICKING TEAM
-              </Button>
-            </Grid>
+      <Grid
+        item
+        xs={4}
+        sm={4}
+        md={4}
+        lg={4}
+        xl={4}
+        style={{ textAlign: "center" }}
+      >
+        <Typography variant="h5" component="h5" style={{ paddingBottom: 15 }}>
+          Enter your name
+        </Typography>
+        <Grid container>
+          <Grid item xs={6}>
+            <TextField
+              id="standard-basic"
+              label="Player Name"
+              onChange={e => onChange(e)}
+            />
           </Grid>
-        </form>
+          <Grid item xs={6}>
+            <Button variant="contained" onClick={e => onClick(e)}>
+              BEGIN PICKING TEAM
+            </Button>
+          </Grid>
+        </Grid>
       </Grid>
     </Layout>
   )

@@ -4,7 +4,7 @@ import { generateQuiz } from "../helper/quiz"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PokemonTeam from "../components/pokemon-team"
-import { Grid, CircularProgress, Button } from "@material-ui/core"
+import { Grid, CircularProgress, Button, Typography } from "@material-ui/core"
 import { PokemonContext } from "../context/context"
 import PokemonMoveCard from "../components/pokemon-move-card"
 import { navigate } from "gatsby"
@@ -12,6 +12,9 @@ import { navigate } from "gatsby"
 const GENERATE_QUIZ = "GENERATE_QUIZ"
 const START_QUIZ = "START_QUIZ"
 const END_QUIZ = "END_QUIZ"
+
+const n1 = 7
+const n2 = 8
 
 const MoveQuiz = () => {
   const {
@@ -27,7 +30,7 @@ const MoveQuiz = () => {
   const [quizList, setQuizList] = useState([])
   useEffect(() => {
     const fetchQuiz = async () => {
-      const quizList = await generateQuiz(team, 7, 5)
+      const quizList = await generateQuiz(team, n1, n2)
       setQuizList(quizList)
     }
     fetchQuiz().then(res => setQuizState({ ...quizState, state: START_QUIZ }))
@@ -101,32 +104,41 @@ const MoveQuiz = () => {
     <Layout>
       <SEO title="Move quiz" />
 
-      <Grid item xs={12} md={10} lg={9} xl={8} style={{ textAlign: "center" }}>
+      <Grid item xs={12} md={8} lg={8} xl={8} style={{ textAlign: "center" }}>
         {quizState.state === GENERATE_QUIZ && (
           <div>
-            <CircularProgress /> GENERATING QUIZ
+            <CircularProgress />
+            <br />
+            GENERATING QUIZ
           </div>
         )}
 
         {quizState.state === START_QUIZ && (
           <div>
+            <Typography variant="h5" component="h5">
+              CURRENT SCORE: {quizState.score}
+            </Typography>
             <h3>
-              QUESTION {quizState.quizIndex + 1}/{quizList.length}
+              QUESTION{" "}
+              <span style={{ color: "red" }}>{quizState.quizIndex + 1}</span>/
+              {quizList.length}
               <br></br>
-              WHICH POKEMONS CAN USE THIS MOVE
+              WHICH OF YOUR POKEMONS CAN LEARN THIS MOVE
             </h3>
             <PokemonMoveCard moveData={quizList[quizState.quizIndex].move} />
           </div>
         )}
 
         {quizState.state === END_QUIZ && (
-          <div>FINAL SCORE: {quizState.score}</div>
+          <Typography variant="h5" component="h5">
+            FINAL SCORE: {quizState.score}
+          </Typography>
         )}
       </Grid>
 
       <Grid item xs={12} md={10} lg={9} xl={8}>
         <h2>
-          Your pokemons<br></br>Point: {quizState.score}
+          Your pokemons<br></br>
         </h2>
         <PokemonTeam
           onPokemonClick={pickPokemon}
