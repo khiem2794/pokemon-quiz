@@ -9,11 +9,11 @@ import IconButton from "@material-ui/core/IconButton"
 import MenuIcon from "@material-ui/icons/Menu"
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft"
 import ChevronRightIcon from "@material-ui/icons/ChevronRight"
-import GitHubIcon from "@material-ui/icons/GitHub"
 import ListItem from "@material-ui/core/ListItem"
 import ListItemIcon from "@material-ui/core/ListItemIcon"
 import ListItemText from "@material-ui/core/ListItemText"
-import InboxIcon from "@material-ui/icons/MoveToInbox"
+import HomeIcon from "@material-ui/icons/Home"
+import GitHubIcon from "@material-ui/icons/GitHub"
 
 const drawerWidth = 240
 
@@ -36,8 +36,6 @@ const useStyles = makeStyles(theme => ({
     display: "flex",
     alignItems: "center",
     padding: theme.spacing(0, 1),
-    // necessary for content to be below app bar
-    ...theme.mixins.toolbar,
     justifyContent: "flex-end",
   },
 }))
@@ -87,7 +85,7 @@ const Appbar = () => {
         <List>
           <ListItem button onClick={e => navigate("/")}>
             <ListItemIcon>
-              <InboxIcon />
+              <HomeIcon />
             </ListItemIcon>
             <ListItemText primary="Home" />
           </ListItem>

@@ -1,18 +1,24 @@
 import React, { useEffect, useContext, useState } from "react"
+import { navigate } from "gatsby"
 import { generateQuiz } from "../helper/quiz"
 
+import {
+  Grid,
+  CircularProgress,
+  Button,
+  Typography,
+  Popper,
+} from "@material-ui/core"
+import { PokemonContext } from "../context/context"
+import PokemonMoveCard from "../components/pokemon-move-card"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PokemonTeam from "../components/pokemon-team"
-import { Grid, CircularProgress, Button, Typography } from "@material-ui/core"
-import { PokemonContext } from "../context/context"
-import PokemonMoveCard from "../components/pokemon-move-card"
-import { navigate } from "gatsby"
 
 const GENERATE_QUIZ = "GENERATE_QUIZ"
 const START_QUIZ = "START_QUIZ"
+const REVEAL_ANSWER = "REVEAL_ANSWER"
 const END_QUIZ = "END_QUIZ"
-
 const n1 = 7
 const n2 = 8
 
@@ -20,6 +26,8 @@ const MoveQuiz = () => {
   const {
     pokemonState: { team },
   } = useContext(PokemonContext)
+  const [anchorEl, setAnchorEl] = useState(null)
+  const [resultText, setResultText] = useState("")
   const [quizState, setQuizState] = useState({
     state: GENERATE_QUIZ,
     quizIndex: 0,
@@ -67,9 +75,10 @@ const MoveQuiz = () => {
     navigate("/select-team")
   }
 
-  const submitAnswer = () => {
+  const submitAnswer = e => {
     if (quizState.state === START_QUIZ) {
       let result = true
+      let resultText = "Wrong!"
       const answers = quizList[quizState.quizIndex].answers.map(p => p.index)
       if (answers.length === quizState.answers.length) {
         for (let i = 0; i < quizState.answers.length; i++) {
@@ -84,13 +93,25 @@ const MoveQuiz = () => {
       let newScore = quizState.score
       if (result) {
         newScore++
+        resultText = "Correct!"
       }
+      setQuizState({
+        ...quizState,
+        state: REVEAL_ANSWER,
+        score: newScore,
+      })
+      setAnchorEl(e.currentTarget)
+      setResultText(resultText)
+    }
+  }
+
+  const nextQuiz = () => {
+    if (quizState.state === REVEAL_ANSWER) {
       if (quizState.quizIndex + 1 < quizList.length) {
         setQuizState({
           ...quizState,
           state: START_QUIZ,
           quizIndex: quizState.quizIndex + 1,
-          score: newScore,
           answers: [],
         })
       } else {
@@ -98,12 +119,13 @@ const MoveQuiz = () => {
           ...quizState,
           state: END_QUIZ,
           quizIndex: 0,
-          score: newScore,
           answers: [],
         })
       }
+      setAnchorEl(null)
     }
   }
+
   return (
     <Layout>
       <SEO title="Move quiz" />
@@ -117,7 +139,8 @@ const MoveQuiz = () => {
           </div>
         )}
 
-        {quizState.state === START_QUIZ && (
+        {(quizState.state === START_QUIZ ||
+          quizState.state === REVEAL_ANSWER) && (
           <div>
             <Typography variant="h5" component="h5">
               CURRENT SCORE: {quizState.score}
@@ -149,6 +172,13 @@ const MoveQuiz = () => {
         <PokemonTeam
           onPokemonClick={pickPokemon}
           answers={quizState.answers.map(e => e.index)}
+          correctAnswers={
+            quizState.state === START_QUIZ || quizState.state === REVEAL_ANSWER
+              ? quizList[quizState.quizIndex].answers
+              : []
+          }
+          revealAnswer={quizState.state === REVEAL_ANSWER}
+          nextQuiz={() => nextQuiz()}
         />
         <Grid
           container
@@ -157,15 +187,35 @@ const MoveQuiz = () => {
           alignItems="center"
           style={{ paddingTop: 25 }}
         >
-          {quizState.state === START_QUIZ && (
-            <Grid item style={{ textAlign: "center" }}>
-              <Button
-                variant="contained"
-                color="primary"
-                onClick={e => submitAnswer()}
-              >
-                ANSWER
-              </Button>
+          {(quizState.state === START_QUIZ ||
+            quizState.state === REVEAL_ANSWER) && (
+            <Grid
+              container
+              direction="row"
+              justify="center"
+              alignItems="center"
+            >
+              <Grid item xs={3} style={{ textAlign: "center" }}>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  onClick={e => submitAnswer(e)}
+                  disabled={quizState.state === REVEAL_ANSWER}
+                >
+                  ANSWER
+                </Button>
+              </Grid>
+              <Grid item xs={3} style={{ textAlign: "center" }}>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  onClick={e => nextQuiz()}
+                  disabled={quizState.state !== REVEAL_ANSWER}
+                  style={{ paddingLeft: 30, paddingRight: 30 }}
+                >
+                  NEXT
+                </Button>
+              </Grid>
             </Grid>
           )}
           {quizState.state === END_QUIZ && (
@@ -181,7 +231,7 @@ const MoveQuiz = () => {
                   color="primary"
                   onClick={e => retry()}
                 >
-                  RETRY WITH CURRENT TEAM
+                  RETRY
                 </Button>
               </Grid>
               <Grid item xs={3} style={{ textAlign: "center" }}>
@@ -190,13 +240,16 @@ const MoveQuiz = () => {
                   color="secondary"
                   onClick={e => pickNewTeam()}
                 >
-                  SELECT NEW TEAM
+                  NEW TEAM
                 </Button>
               </Grid>
             </Grid>
           )}
         </Grid>
       </Grid>
+      <Popper open={Boolean(anchorEl)} anchorEl={anchorEl}>
+        <Typography>{resultText}</Typography>
+      </Popper>
     </Layout>
   )
 }

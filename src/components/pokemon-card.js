@@ -1,5 +1,6 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
+import Img from "gatsby-image"
 import { getTypeColor } from "../helper/quiz"
 
 import {
@@ -10,7 +11,6 @@ import {
   Typography,
   Grid,
 } from "@material-ui/core"
-import Img from "gatsby-image"
 
 const useStyles = makeStyles({
   root: {
