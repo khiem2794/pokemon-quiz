@@ -195,7 +195,7 @@ const MoveQuiz = () => {
               justify="center"
               alignItems="center"
             >
-              <Grid item xs={3} style={{ textAlign: "center" }}>
+              <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
                 <Button
                   variant="contained"
                   color="primary"
@@ -205,7 +205,7 @@ const MoveQuiz = () => {
                   ANSWER
                 </Button>
               </Grid>
-              <Grid item xs={3} style={{ textAlign: "center" }}>
+              <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
                 <Button
                   variant="contained"
                   color="primary"
@@ -225,7 +225,7 @@ const MoveQuiz = () => {
               justify="center"
               alignItems="center"
             >
-              <Grid item xs={3} style={{ textAlign: "center" }}>
+              <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
                 <Button
                   variant="contained"
                   color="primary"
@@ -234,7 +234,7 @@ const MoveQuiz = () => {
                   RETRY
                 </Button>
               </Grid>
-              <Grid item xs={3} style={{ textAlign: "center" }}>
+              <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
                 <Button
                   variant="contained"
                   color="secondary"

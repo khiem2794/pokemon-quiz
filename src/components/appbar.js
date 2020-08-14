@@ -14,6 +14,7 @@ import ListItemIcon from "@material-ui/core/ListItemIcon"
 import ListItemText from "@material-ui/core/ListItemText"
 import HomeIcon from "@material-ui/icons/Home"
 import GitHubIcon from "@material-ui/icons/GitHub"
+import { ClickAwayListener } from "@material-ui/core"
 
 const drawerWidth = 240
 
@@ -54,55 +55,57 @@ const Appbar = () => {
   }
 
   return (
-    <div>
-      <IconButton
-        color="inherit"
-        aria-label="open drawer"
-        onClick={handleDrawerOpen}
-        edge="start"
-        className={clsx(classes.menuButton, open && classes.hide)}
-      >
-        <MenuIcon />
-      </IconButton>
-      <Drawer
-        variant="persistent"
-        anchor="left"
-        open={open}
-        classes={{
-          paper: classes.drawerPaper,
-        }}
-      >
-        <div className={classes.drawerHeader}>
-          <IconButton onClick={handleDrawerClose}>
-            {theme.direction === "ltr" ? (
-              <ChevronLeftIcon />
-            ) : (
-              <ChevronRightIcon />
-            )}
-          </IconButton>
-        </div>
-        <Divider />
-        <List>
-          <ListItem button onClick={e => navigate("/")}>
-            <ListItemIcon>
-              <HomeIcon />
-            </ListItemIcon>
-            <ListItemText primary="Home" />
-          </ListItem>
-          <ListItem
-            button
-            onClick={e =>
-              navigate("https://github.com/ngockhiem27/pokemon-quiz")
-            }
-          >
-            <ListItemIcon>
-              <GitHubIcon />
-            </ListItemIcon>
-            <ListItemText primary="Github" />
-          </ListItem>
-        </List>
-      </Drawer>
-    </div>
+    <ClickAwayListener onClickAway={() => setOpen(false)}>
+      <div>
+        <IconButton
+          color="inherit"
+          aria-label="open drawer"
+          onClick={handleDrawerOpen}
+          edge="start"
+          className={clsx(classes.menuButton, open && classes.hide)}
+        >
+          <MenuIcon />
+        </IconButton>
+        <Drawer
+          variant="persistent"
+          anchor="left"
+          open={open}
+          classes={{
+            paper: classes.drawerPaper,
+          }}
+        >
+          <div className={classes.drawerHeader}>
+            <IconButton onClick={handleDrawerClose}>
+              {theme.direction === "ltr" ? (
+                <ChevronLeftIcon />
+              ) : (
+                <ChevronRightIcon />
+              )}
+            </IconButton>
+          </div>
+          <Divider />
+          <List>
+            <ListItem button onClick={e => navigate("/")}>
+              <ListItemIcon>
+                <HomeIcon />
+              </ListItemIcon>
+              <ListItemText primary="Home" />
+            </ListItem>
+            <ListItem
+              button
+              onClick={e =>
+                navigate("https://github.com/ngockhiem27/pokemon-quiz")
+              }
+            >
+              <ListItemIcon>
+                <GitHubIcon />
+              </ListItemIcon>
+              <ListItemText primary="Github" />
+            </ListItem>
+          </List>
+        </Drawer>
+      </div>
+    </ClickAwayListener>
   )
 }
 
