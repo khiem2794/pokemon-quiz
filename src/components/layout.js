@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Grid from "@material-ui/core/Grid"
+import Appbar from "./appbar"
 
 const Layout = ({ children }) => {
   return (
@@ -13,14 +14,9 @@ const Layout = ({ children }) => {
           justifyContent: "center",
         }}
       >
-        <Grid
-          item
-          xs={12}
-          style={{
-            padding: "24px",
-            textAlign: "center",
-          }}
-        ></Grid>
+        <Grid item xs={12}>
+          <Appbar />
+        </Grid>
         {children}
       </Grid>
     </div>

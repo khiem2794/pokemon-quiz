@@ -4,7 +4,11 @@ import { Typography, Grid, Paper, Hidden } from "@material-ui/core"
 
 export default function PokemonMoveCard({ moveData }) {
   return (
-    <Paper square={true} elevation={15}>
+    <Paper
+      square={true}
+      elevation={15}
+      style={{ backgroundColor: "#ae9d244a" }}
+    >
       <Grid container>
         <Grid item sm={8}>
           <Grid container>

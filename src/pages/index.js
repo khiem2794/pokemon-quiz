@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React, { useContext, useEffect } from "react"
 import { navigate } from "gatsby"
 
 import Layout from "../components/layout"
@@ -10,9 +10,12 @@ import { Grid, Typography } from "@material-ui/core"
 
 const IndexPage = () => {
   let playerName = ""
-  const { registerPlayer } = useContext(PokemonContext)
+  const { registerPlayer, resetState } = useContext(PokemonContext)
+  useEffect(() => {
+    resetState()
+  }, [])
 
-  const onClick = e => {
+  const onClick = () => {
     if (playerName.length > 0) {
       registerPlayer({ name: playerName })
       navigate("/select-team")
@@ -23,14 +26,20 @@ const IndexPage = () => {
     playerName = e.target.value
   }
 
+  const onKeyDown = e => {
+    if (e.key === "Enter") {
+      onClick()
+    }
+  }
+
   return (
     <Layout>
       <SEO title="Home" />
       <Grid
         item
-        xs={4}
-        sm={4}
-        md={4}
+        xs={12}
+        sm={6}
+        md={6}
         lg={4}
         xl={4}
         style={{ textAlign: "center" }}
@@ -44,10 +53,11 @@ const IndexPage = () => {
               id="standard-basic"
               label="Player Name"
               onChange={e => onChange(e)}
+              onKeyDown={e => onKeyDown(e)}
             />
           </Grid>
           <Grid item xs={6}>
-            <Button variant="contained" onClick={e => onClick(e)}>
+            <Button variant="contained" onClick={e => onClick()}>
               BEGIN PICKING TEAM
             </Button>
           </Grid>

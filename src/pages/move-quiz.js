@@ -29,11 +29,15 @@ const MoveQuiz = () => {
   })
   const [quizList, setQuizList] = useState([])
   useEffect(() => {
-    const fetchQuiz = async () => {
-      const quizList = await generateQuiz(team, n1, n2)
-      setQuizList(quizList)
+    if (team.length > 0) {
+      const fetchQuiz = async () => {
+        const quizList = await generateQuiz(team, n1, n2)
+        setQuizList(quizList)
+      }
+      fetchQuiz().then(res => setQuizState({ ...quizState, state: START_QUIZ }))
+    } else {
+      navigate("/")
     }
-    fetchQuiz().then(res => setQuizState({ ...quizState, state: START_QUIZ }))
   }, [quizState.fetchSwitch])
 
   const pickPokemon = pokemon => {
@@ -120,8 +124,10 @@ const MoveQuiz = () => {
             </Typography>
             <h3>
               QUESTION{" "}
-              <span style={{ color: "red" }}>{quizState.quizIndex + 1}</span>/
-              {quizList.length}
+              <span style={{ color: "red", fontSize: 25 }}>
+                {quizState.quizIndex + 1}
+              </span>
+              /{quizList.length}
               <br></br>
               WHICH OF YOUR POKEMONS CAN LEARN THIS MOVE
             </h3>

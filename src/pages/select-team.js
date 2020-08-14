@@ -75,6 +75,9 @@ export const query = graphql`
             index
             name
             types
+            sprite {
+              url
+            }
             sprite2 {
               url
             }

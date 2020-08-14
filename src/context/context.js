@@ -11,6 +11,7 @@ const REGISTER_PLAYER = "REGISTER_PLAYER"
 const ADD_POKEMON = "ADD_POKEMON"
 const REMOVE_POKEMON = "REMOVE_POKEMON"
 const START_QUIZ = "START_QUIZ"
+const RESET_STATE = "RESET_STATE"
 
 const reducer = (state, action) => {
   if (action.type === REGISTER_PLAYER) {
@@ -32,6 +33,9 @@ const reducer = (state, action) => {
 
   if (action.type === START_QUIZ) {
     return { ...state }
+  }
+  if (action.type === RESET_STATE) {
+    return initialState
   }
 }
 
@@ -72,12 +76,20 @@ const PokemonContextProvider = ({ children }) => {
     })
   }
 
+  const resetState = () => {
+    dispatch({
+      type: RESET_STATE,
+      payload: {},
+    })
+  }
+
   const value = {
     pokemonState,
     addPokemon,
     removePokemon,
     registerPlayer,
     startQuiz,
+    resetState,
   }
   return (
     <PokemonContext.Provider value={value}>{children}</PokemonContext.Provider>

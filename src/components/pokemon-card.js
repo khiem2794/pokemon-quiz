@@ -27,11 +27,26 @@ const PokemonCard = ({ pokemonData, isSelected }) => {
       <Box border={3} borderColor={isSelected ? "green" : "white"}>
         <Card className={classes.root} square={true}>
           <CardActionArea>
-            <Img
-              alt={pokemonData.name}
-              fluid={pokemonData.localImage.childImageSharp.fluid}
-              style={{ backgroundColor: "#F2F2F2" }}
-            />
+            <Grid
+              container
+              justify="center"
+              style={{
+                backgroundColor: "#F2F2F2",
+                height: 150,
+                textAlign: "center",
+              }}
+            >
+              {pokemonData.localImage ? (
+                <Grid item xs={12}>
+                  <Img
+                    alt={pokemonData.name}
+                    fluid={pokemonData.localImage.childImageSharp.fluid}
+                  />
+                </Grid>
+              ) : (
+                <img src={pokemonData.sprite.url} alt={pokemonData.name} />
+              )}
+            </Grid>
             <CardContent
               style={{
                 textAlign: "center",
