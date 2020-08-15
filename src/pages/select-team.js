@@ -1,14 +1,22 @@
-import React, { useContext } from "react"
+import React, { useContext, useState } from "react"
 import { graphql, navigate } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import GenerationsTabs from "../components/generations-tabs"
 import PokemonTeam from "../components/pokemon-team"
-import { Button, Grid, Typography } from "@material-ui/core"
+import {
+  Button,
+  Grid,
+  Typography,
+  Backdrop,
+  CircularProgress,
+} from "@material-ui/core"
 import { PokemonContext } from "../context/context"
 
 const SelectTeam = ({ data }) => {
+  const [openBackdrop, setOpenBackdrop] = useState(false)
+
   const generations = data.allGeneration.edges.map(node => {
     return {
       generation: node.node.generation,
@@ -21,14 +29,17 @@ const SelectTeam = ({ data }) => {
   const onClick = e => {
     if (pokemonState.team.length > 0) {
       startQuiz()
-      navigate("/move-quiz")
+      setOpenBackdrop(true)
+      setTimeout(() => navigate("/move-quiz"), 100)
     }
   }
 
   return (
     <Layout>
       <SEO title="Select team" />
-
+      <Backdrop open={openBackdrop} style={{ zIndex: 1 }}>
+        <CircularProgress color="inherit" />
+      </Backdrop>
       <Grid item xs={12} style={{ textAlign: "center", paddingBottom: 10 }}>
         <Typography variant="h3" component="h3">
           Pick pokemons for your team

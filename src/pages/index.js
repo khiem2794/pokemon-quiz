@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react"
+import React, { useContext, useEffect, useState } from "react"
 import { navigate } from "gatsby"
 
 import Layout from "../components/layout"
@@ -6,19 +6,21 @@ import SEO from "../components/seo"
 import TextField from "@material-ui/core/TextField"
 import Button from "@material-ui/core/Button"
 import { PokemonContext } from "../context/context"
-import { Grid, Typography } from "@material-ui/core"
+import { Grid, Typography, Backdrop, CircularProgress } from "@material-ui/core"
 
 const IndexPage = () => {
   let playerName = ""
   const { registerPlayer, resetState } = useContext(PokemonContext)
+  const [openBackdrop, setOpenBackdrop] = useState(false)
   useEffect(() => {
     resetState()
   }, [])
-
+  console.log("bd", openBackdrop)
   const onClick = () => {
     if (playerName.length > 0) {
       registerPlayer({ name: playerName })
-      navigate("/select-team")
+      setOpenBackdrop(true)
+      setTimeout(() => navigate("/select-team"), 100)
     }
   }
 
@@ -35,6 +37,9 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
+      <Backdrop open={openBackdrop} onClick={() => setOpenBackdrop(false)}>
+        <CircularProgress color="inherit" />
+      </Backdrop>
       <Grid
         item
         xs={12}
