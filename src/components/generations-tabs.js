@@ -45,7 +45,7 @@ export default function GenerationsTabs({ generations }) {
           </Tabs>
         </AppBar>
       </Grid>
-      <Grid item xs={12}>
+      <Grid item xs={12} style={{ border: "1px solid blue" }}>
         {generations.map((gen, key) => {
           return (
             <GenerationPanel value={value} index={key} key={key}>

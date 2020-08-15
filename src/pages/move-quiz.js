@@ -8,6 +8,10 @@ import {
   Button,
   Typography,
   Popper,
+  Card,
+  List,
+  ListItem,
+  ListItemText,
 } from "@material-ui/core"
 import { PokemonContext } from "../context/context"
 import PokemonMoveCard from "../components/pokemon-move-card"
@@ -97,6 +101,7 @@ const MoveQuiz = ({ data }) => {
         newScore++
         resultText = "Correct!"
       }
+      quizList[quizState.quizIndex].result = result
       setQuizState({
         ...quizState,
         state: REVEAL_ANSWER,
@@ -175,13 +180,62 @@ const MoveQuiz = ({ data }) => {
         )}
 
         {quizState.state === END_QUIZ && (
-          <Typography
-            variant="h3"
-            style={{ textAlign: "center", paddingTop: 25 }}
-          >
-            FINAL SCORE:{" "}
-            <span style={{ color: "green" }}>{quizState.score}</span>
-          </Typography>
+          <div>
+            <Typography
+              variant="h3"
+              style={{ textAlign: "center", paddingTop: 25 }}
+            >
+              FINAL SCORE:{" "}
+              <span style={{ color: "green" }}>{quizState.score}</span>
+            </Typography>
+            <Grid container justify="center">
+              <Grid item xs={12} sm={10} md={8}>
+                <Card elevation={10} variant="outlined" style={{ padding: 15 }}>
+                  <Grid container justify="center">
+                    <Grid item xs={12}>
+                      <Typography variant="h5">RESULT</Typography>
+                    </Grid>
+                    <Grid item xs={6}>
+                      <List>
+                        {quizList &&
+                          quizList.slice(0, quizList.length / 2).map((q, k) => (
+                            <ListItem
+                              style={{
+                                textAlign: "center",
+                                padding: 0,
+                                color: q.result ? "green" : "red",
+                                textDecoration: !q.result && "line-through",
+                              }}
+                            >
+                              <ListItemText primary={q.move.name} />
+                            </ListItem>
+                          ))}
+                      </List>
+                    </Grid>
+                    <Grid item xs={6}>
+                      <List>
+                        {quizList &&
+                          quizList
+                            .slice(quizList.length / 2, quizList.length)
+                            .map((q, k) => (
+                              <ListItem
+                                style={{
+                                  textAlign: "center",
+                                  padding: 0,
+                                  color: q.result ? "green" : "red",
+                                  textDecoration: !q.result && "line-through",
+                                }}
+                              >
+                                <ListItemText primary={q.move.name} />
+                              </ListItem>
+                            ))}
+                      </List>
+                    </Grid>
+                  </Grid>
+                </Card>
+              </Grid>
+            </Grid>
+          </div>
         )}
       </Grid>
       <Grid
@@ -194,7 +248,12 @@ const MoveQuiz = ({ data }) => {
         {(quizState.state === START_QUIZ ||
           quizState.state === REVEAL_ANSWER) && (
           <Grid container direction="row" justify="center" alignItems="center">
-            <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
+            <Grid
+              item
+              xs={6}
+              sm={4}
+              style={{ textAlign: "right", paddingRight: 15 }}
+            >
               <Button
                 variant="contained"
                 color="primary"
@@ -204,7 +263,12 @@ const MoveQuiz = ({ data }) => {
                 ANSWER
               </Button>
             </Grid>
-            <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
+            <Grid
+              item
+              xs={6}
+              sm={4}
+              style={{ textAlign: "left", paddingLeft: 15 }}
+            >
               <Button
                 variant="contained"
                 color="primary"
@@ -219,7 +283,12 @@ const MoveQuiz = ({ data }) => {
         )}
         {quizState.state === END_QUIZ && (
           <Grid container direction="row" justify="center" alignItems="center">
-            <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
+            <Grid
+              item
+              xs={6}
+              sm={4}
+              style={{ textAlign: "right", paddingRight: 15 }}
+            >
               <Button
                 variant="contained"
                 color="primary"
@@ -228,7 +297,12 @@ const MoveQuiz = ({ data }) => {
                 RETRY
               </Button>
             </Grid>
-            <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
+            <Grid
+              item
+              xs={6}
+              sm={4}
+              style={{ textAlign: "left", paddingLeft: 15 }}
+            >
               <Button
                 variant="contained"
                 color="secondary"
