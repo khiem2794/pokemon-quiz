@@ -1,5 +1,5 @@
 import React, { useEffect, useContext, useState } from "react"
-import { navigate } from "gatsby"
+import { navigate, graphql } from "gatsby"
 import { generateQuiz } from "../helper/quiz"
 
 import {
@@ -19,10 +19,8 @@ const GENERATE_QUIZ = "GENERATE_QUIZ"
 const START_QUIZ = "START_QUIZ"
 const REVEAL_ANSWER = "REVEAL_ANSWER"
 const END_QUIZ = "END_QUIZ"
-const n1 = 1
-const n2 = 1
 
-const MoveQuiz = () => {
+const MoveQuiz = ({ data }) => {
   const {
     pokemonState: { team },
   } = useContext(PokemonContext)
@@ -39,7 +37,11 @@ const MoveQuiz = () => {
   useEffect(() => {
     if (team.length > 0) {
       const fetchQuiz = async () => {
-        const quizList = await generateQuiz(team, n1, n2)
+        const quizList = await generateQuiz(
+          team,
+          data.site.siteMetadata.n1Question,
+          data.site.siteMetadata.n2Question
+        )
         setQuizList(quizList)
       }
       fetchQuiz().then(res => setQuizState({ ...quizState, state: START_QUIZ }))
@@ -258,5 +260,16 @@ const MoveQuiz = () => {
     </Layout>
   )
 }
+
+export const queryN12Question = graphql`
+  {
+    site {
+      siteMetadata {
+        n1Question
+        n2Question
+      }
+    }
+  }
+`
 
 export default MoveQuiz

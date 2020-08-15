@@ -3,6 +3,8 @@ module.exports = {
     title: `Pokemons Quiz`,
     description: `How well do you know your pokemon team.`,
     author: `@ngockhiem27`,
+    n1Question: 7,
+    n2Question: 8,
   },
   plugins: [
     `gatsby-plugin-material-ui`,
