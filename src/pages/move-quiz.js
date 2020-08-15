@@ -12,6 +12,7 @@ import {
   List,
   ListItem,
   ListItemText,
+  Backdrop,
 } from "@material-ui/core"
 import { PokemonContext } from "../context/context"
 import PokemonMoveCard from "../components/pokemon-move-card"
@@ -28,6 +29,7 @@ const MoveQuiz = ({ data }) => {
   const {
     pokemonState: { team },
   } = useContext(PokemonContext)
+  const [openBackdrop, setOpenBackdrop] = useState(false)
   const [anchorEl, setAnchorEl] = useState(null)
   const [resultText, setResultText] = useState("")
   const [quizState, setQuizState] = useState({
@@ -78,7 +80,8 @@ const MoveQuiz = ({ data }) => {
   }
 
   const pickNewTeam = () => {
-    navigate("/select-team")
+    setOpenBackdrop(true)
+    setTimeout(() => navigate("/select-team"), 100)
   }
 
   const submitAnswer = e => {
@@ -136,7 +139,9 @@ const MoveQuiz = ({ data }) => {
   return (
     <Layout>
       <SEO title="Move quiz" />
-
+      <Backdrop open={openBackdrop} style={{ zIndex: 1 }}>
+        <CircularProgress color="inherit" />
+      </Backdrop>
       <Grid
         item
         xs={12}

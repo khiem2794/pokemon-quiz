@@ -12,10 +12,11 @@ const IndexPage = () => {
   let playerName = ""
   const { registerPlayer, resetState } = useContext(PokemonContext)
   const [openBackdrop, setOpenBackdrop] = useState(false)
+
   useEffect(() => {
     resetState()
   }, [])
-  console.log("bd", openBackdrop)
+
   const onClick = () => {
     if (playerName.length > 0) {
       registerPlayer({ name: playerName })
@@ -37,7 +38,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Backdrop open={openBackdrop} onClick={() => setOpenBackdrop(false)}>
+      <Backdrop open={openBackdrop} style={{ zIndex: 1 }}>
         <CircularProgress color="inherit" />
       </Backdrop>
       <Grid
