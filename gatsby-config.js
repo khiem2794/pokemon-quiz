@@ -32,7 +32,7 @@ module.exports = {
       resolve: `gatsby-plugin-remote-images`,
       options: {
         nodeType: "Pokemon",
-        imagePath: "sprite2.url",
+        imagePath: "sprite.url",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

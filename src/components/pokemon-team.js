@@ -29,8 +29,8 @@ export default function PokemonTeam({
       <Grid container>
         {team.map(pokemon => {
           return (
-            <Grid item xs={6} xm={4} md={4} lg={2} xl={2} key={pokemon.id}>
-              <Grid container justify="center" spacing={2}>
+            <Grid item xs={4} sm={2} md={2} lg={2} xl={2} key={pokemon.id}>
+              <Grid container justify="center">
                 <Grid item onClick={e => onPokemonClick(pokemon)}>
                   <div>
                     {correctAnswers && revealAnswer && (

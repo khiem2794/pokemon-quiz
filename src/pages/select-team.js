@@ -30,7 +30,7 @@ const SelectTeam = ({ data }) => {
       <SEO title="Select team" />
 
       <Grid item xs={12} style={{ textAlign: "center", paddingBottom: 10 }}>
-        <Typography variant="h5" component="h4">
+        <Typography variant="h3" component="h3">
           Pick pokemons for your team
         </Typography>
       </Grid>
@@ -38,7 +38,7 @@ const SelectTeam = ({ data }) => {
         <GenerationsTabs generations={generations} />
       </Grid>
       <Grid item xs={12} md={10} lg={9} xl={8}>
-        <h2>Your pokemons</h2>
+        <Typography variant="h3">Your pokemons</Typography>
         <PokemonTeam onPokemonClick={removePokemon} />
         {pokemonState.team.length > 0 && (
           <Grid

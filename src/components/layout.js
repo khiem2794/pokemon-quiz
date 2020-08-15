@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <Grid
         container
         style={{
-          padding: "24px",
+          padding: "5px",
           alignItems: "center",
           justifyContent: "center",
         }}

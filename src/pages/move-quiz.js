@@ -20,7 +20,7 @@ const START_QUIZ = "START_QUIZ"
 const REVEAL_ANSWER = "REVEAL_ANSWER"
 const END_QUIZ = "END_QUIZ"
 const n1 = 7
-const n2 = 8
+const n2 = 5
 
 const MoveQuiz = () => {
   const {
@@ -130,45 +130,63 @@ const MoveQuiz = () => {
     <Layout>
       <SEO title="Move quiz" />
 
-      <Grid item xs={12} md={8} lg={8} xl={8} style={{ textAlign: "center" }}>
+      <Grid
+        item
+        xs={12}
+        md={9}
+        lg={8}
+        xl={8}
+        style={{ textAlign: "center", paddingTop: 25 }}
+      >
         {quizState.state === GENERATE_QUIZ && (
           <div>
             <CircularProgress />
-            <br />
-            GENERATING QUIZ
+            <Typography>
+              <br />
+              GENERATING QUIZ
+            </Typography>
           </div>
         )}
 
         {(quizState.state === START_QUIZ ||
           quizState.state === REVEAL_ANSWER) && (
           <div>
-            <Typography variant="h5" component="h5">
+            <Typography variant="h4">
               CURRENT SCORE: {quizState.score}
             </Typography>
-            <h3>
+            <Typography
+              variant="h5"
+              style={{ textAlign: "center", paddingTop: 25 }}
+            >
               QUESTION{" "}
-              <span style={{ color: "red", fontSize: 25 }}>
-                {quizState.quizIndex + 1}
-              </span>
-              /{quizList.length}
-              <br></br>
+              <span style={{ color: "red" }}>{quizState.quizIndex + 1}</span>/
+              {quizList.length}
+            </Typography>
+            <Typography
+              variant="h5"
+              style={{ textAlign: "center", paddingTop: 15 }}
+            >
               WHICH OF YOUR POKEMONS CAN LEARN THIS MOVE
-            </h3>
+            </Typography>
             <PokemonMoveCard moveData={quizList[quizState.quizIndex].move} />
           </div>
         )}
 
         {quizState.state === END_QUIZ && (
-          <Typography variant="h5" component="h5">
-            FINAL SCORE: {quizState.score}
+          <Typography
+            variant="h3"
+            style={{ textAlign: "center", paddingTop: 100 }}
+          >
+            FINAL SCORE:{" "}
+            <span style={{ color: "green" }}>{quizState.score}</span>
           </Typography>
         )}
       </Grid>
 
       <Grid item xs={12} md={10} lg={9} xl={8}>
-        <h2>
-          Your pokemons<br></br>
-        </h2>
+        <Typography variant="h3" style={{ paddingTop: 10 }}>
+          Your pokemons
+        </Typography>
         <PokemonTeam
           onPokemonClick={pickPokemon}
           answers={quizState.answers.map(e => e.index)}

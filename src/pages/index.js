@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react"
-import { navigate } from "gatsby"
+import { navigate, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -42,13 +42,13 @@ const IndexPage = () => {
         md={6}
         lg={4}
         xl={4}
-        style={{ textAlign: "center" }}
+        style={{ textAlign: "center", paddingTop: 200 }}
       >
-        <Typography variant="h5" component="h5" style={{ paddingBottom: 15 }}>
+        <Typography variant="h3" style={{ paddingBottom: 15 }}>
           Enter your name
         </Typography>
         <Grid container>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <TextField
               id="standard-basic"
               label="Player Name"
@@ -56,9 +56,13 @@ const IndexPage = () => {
               onKeyDown={e => onKeyDown(e)}
             />
           </Grid>
-          <Grid item xs={6}>
-            <Button variant="contained" onClick={e => onClick()}>
-              BEGIN PICKING TEAM
+          <Grid item xs={12} md={6} style={{ padding: 15 }}>
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={e => onClick()}
+            >
+              ACCEPT
             </Button>
           </Grid>
         </Grid>

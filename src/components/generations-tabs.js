@@ -4,20 +4,14 @@ import AppBar from "@material-ui/core/AppBar"
 import Tabs from "@material-ui/core/Tabs"
 import Tab from "@material-ui/core/Tab"
 import Box from "@material-ui/core/Box"
-import GenerationPokemonList from "../components/generation-pokemon-list"
 import { Grid } from "@material-ui/core"
+import ResponsiveGenerationPokemonList from "./responsive-generation-pokemon-list"
 
 function GenerationPanel(props) {
   const { children, value, index, ...other } = props
 
   return (
-    <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`simple-tabpanel-${index}`}
-      aria-labelledby={`simple-tab-${index}`}
-      {...other}
-    >
+    <div role="tabpanel" hidden={value !== index} {...other}>
       {value === index && <Box p={1}>{children}</Box>}
     </div>
   )
@@ -27,13 +21,6 @@ GenerationPanel.propTypes = {
   children: PropTypes.node,
   index: PropTypes.any.isRequired,
   value: PropTypes.any.isRequired,
-}
-
-function a11yProps(index) {
-  return {
-    id: `simple-tab-${index}`,
-    "aria-controls": `simple-tabpanel-${index}`,
-  }
 }
 
 export default function GenerationsTabs({ generations }) {
@@ -49,12 +36,11 @@ export default function GenerationsTabs({ generations }) {
           <Tabs
             value={value}
             onChange={handleChange}
-            aria-label="simple tabs example"
+            variant="scrollable"
+            scrollButtons="auto"
           >
             {generations.map((gen, key) => {
-              return (
-                <Tab label={gen.generation} {...a11yProps(key)} key={key} />
-              )
+              return <Tab label={"GEN " + (key + 1)} key={key} />
             })}
           </Tabs>
         </AppBar>
@@ -63,7 +49,7 @@ export default function GenerationsTabs({ generations }) {
         {generations.map((gen, key) => {
           return (
             <GenerationPanel value={value} index={key} key={key}>
-              <GenerationPokemonList generation={gen} />
+              <ResponsiveGenerationPokemonList generation={gen} />
             </GenerationPanel>
           )
         })}

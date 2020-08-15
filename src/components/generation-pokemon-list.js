@@ -8,12 +8,25 @@ import { PokemonContext } from "../context/context"
 
 const useStyles = makeStyles(theme => ({
   gridList: {
-    height: 350,
-    overflowY: "auto",
+    [theme.breakpoints.only("xs")]: {
+      height: 200,
+    },
+    [theme.breakpoints.only("sm")]: {
+      height: 400,
+    },
+    [theme.breakpoints.only("md")]: {
+      height: 420,
+    },
+    [theme.breakpoints.only("lg")]: {
+      height: 430,
+    },
+    [theme.breakpoints.only("xl")]: {
+      height: 440,
+    },
   },
 }))
 
-export default function GenerationPokemonList({ generation }) {
+export default function GenerationPokemonList({ generation, cols }) {
   const classes = useStyles()
   const { pokemonState, addPokemon, removePokemon } = useContext(PokemonContext)
 
@@ -29,7 +42,7 @@ export default function GenerationPokemonList({ generation }) {
     <GridList
       className={classes.gridList}
       cellHeight="auto"
-      cols={10}
+      cols={cols}
       spacing={0}
     >
       {generation.pokemons.map(pokemon => {
