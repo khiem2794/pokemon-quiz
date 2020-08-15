@@ -16,7 +16,6 @@ import { PokemonContext } from "../context/context"
 
 const SelectTeam = ({ data }) => {
   const [openBackdrop, setOpenBackdrop] = useState(false)
-
   const generations = data.allGeneration.edges.map(node => {
     return {
       generation: node.node.generation,
@@ -26,6 +25,7 @@ const SelectTeam = ({ data }) => {
     }
   })
   const { pokemonState, startQuiz, removePokemon } = useContext(PokemonContext)
+
   const onClick = e => {
     if (pokemonState.team.length > 0) {
       startQuiz()

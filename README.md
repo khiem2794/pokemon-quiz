@@ -2,7 +2,10 @@
 
 ## About
 
-Pick your team of 6 pokemon and answer which pokemons can learn the move in the question
+Pick your team of 6 pokemon and answer which pokemons can learn the move in the question. Visit the demo site here: http://pokemons-quiz.netllify.app
+
+<img src="src/images/mobile-demo.gif" height="260" width="150">
+<img src="src/images/desktop-demo.gif" height="260">
 
 ## Technologies
 

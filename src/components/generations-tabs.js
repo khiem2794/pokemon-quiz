@@ -29,6 +29,7 @@ export default function GenerationsTabs({ generations }) {
   const handleChange = (event, newValue) => {
     setValue(newValue)
   }
+
   return (
     <Grid container>
       <Grid item xs={12}>
