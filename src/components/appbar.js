@@ -14,7 +14,8 @@ import ListItemIcon from "@material-ui/core/ListItemIcon"
 import ListItemText from "@material-ui/core/ListItemText"
 import HomeIcon from "@material-ui/icons/Home"
 import GitHubIcon from "@material-ui/icons/GitHub"
-import { ClickAwayListener } from "@material-ui/core"
+import KeyboardIcon from "@material-ui/icons/Keyboard"
+import { ClickAwayListener, Typography } from "@material-ui/core"
 
 const drawerWidth = 240
 
@@ -91,6 +92,12 @@ const Appbar = () => {
               </ListItemIcon>
               <ListItemText primary="Home" />
             </ListItem>
+            <ListItem button onClick={e => navigate("/select-team")}>
+              <ListItemIcon>
+                <KeyboardIcon />
+              </ListItemIcon>
+              <ListItemText primary="Select team" />
+            </ListItem>
             <ListItem
               button
               onClick={e =>
@@ -102,6 +109,20 @@ const Appbar = () => {
               </ListItemIcon>
               <ListItemText primary="Github" />
             </ListItem>
+            <Divider />
+
+            <main style={{ textAlign: "justify", padding: 3 }}>
+              <Typography variant="h5">About project</Typography>
+              <Typography paragraph>
+                Pick your team of 6 pokemon and answer which pokemons can learn
+                the move in the question. This project is built using Gatsby and
+                Material-ui, data is pulled from{" "}
+                <a href="http://pokeapi.co" target="_blank" rel="noreferrer">
+                  pokeapi
+                </a>
+                . You can contribute to this project via github.
+              </Typography>
+            </main>
           </List>
         </Drawer>
       </div>
