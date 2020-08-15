@@ -19,8 +19,8 @@ const GENERATE_QUIZ = "GENERATE_QUIZ"
 const START_QUIZ = "START_QUIZ"
 const REVEAL_ANSWER = "REVEAL_ANSWER"
 const END_QUIZ = "END_QUIZ"
-const n1 = 7
-const n2 = 5
+const n1 = 1
+const n2 = 1
 
 const MoveQuiz = () => {
   const {
@@ -175,18 +175,71 @@ const MoveQuiz = () => {
         {quizState.state === END_QUIZ && (
           <Typography
             variant="h3"
-            style={{ textAlign: "center", paddingTop: 100 }}
+            style={{ textAlign: "center", paddingTop: 25 }}
           >
             FINAL SCORE:{" "}
             <span style={{ color: "green" }}>{quizState.score}</span>
           </Typography>
         )}
       </Grid>
+      <Grid
+        container
+        direction="row"
+        justify="center"
+        alignItems="center"
+        style={{ paddingTop: 25, paddingBottom: 25 }}
+      >
+        {(quizState.state === START_QUIZ ||
+          quizState.state === REVEAL_ANSWER) && (
+          <Grid container direction="row" justify="center" alignItems="center">
+            <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={e => submitAnswer(e)}
+                disabled={quizState.state === REVEAL_ANSWER}
+              >
+                ANSWER
+              </Button>
+            </Grid>
+            <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={e => nextQuiz()}
+                disabled={quizState.state !== REVEAL_ANSWER}
+                style={{ paddingLeft: 30, paddingRight: 30 }}
+              >
+                NEXT
+              </Button>
+            </Grid>
+          </Grid>
+        )}
+        {quizState.state === END_QUIZ && (
+          <Grid container direction="row" justify="center" alignItems="center">
+            <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={e => retry()}
+              >
+                RETRY
+              </Button>
+            </Grid>
+            <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
+              <Button
+                variant="contained"
+                color="secondary"
+                onClick={e => pickNewTeam()}
+              >
+                NEW TEAM
+              </Button>
+            </Grid>
+          </Grid>
+        )}
+      </Grid>
 
       <Grid item xs={12} md={10} lg={9} xl={8}>
-        <Typography variant="h3" style={{ paddingTop: 10 }}>
-          Your pokemons
-        </Typography>
         <PokemonTeam
           onPokemonClick={pickPokemon}
           answers={quizState.answers.map(e => e.index)}
@@ -198,72 +251,6 @@ const MoveQuiz = () => {
           revealAnswer={quizState.state === REVEAL_ANSWER}
           nextQuiz={() => nextQuiz()}
         />
-        <Grid
-          container
-          direction="row"
-          justify="center"
-          alignItems="center"
-          style={{ paddingTop: 25 }}
-        >
-          {(quizState.state === START_QUIZ ||
-            quizState.state === REVEAL_ANSWER) && (
-            <Grid
-              container
-              direction="row"
-              justify="center"
-              alignItems="center"
-            >
-              <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
-                <Button
-                  variant="contained"
-                  color="primary"
-                  onClick={e => submitAnswer(e)}
-                  disabled={quizState.state === REVEAL_ANSWER}
-                >
-                  ANSWER
-                </Button>
-              </Grid>
-              <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
-                <Button
-                  variant="contained"
-                  color="primary"
-                  onClick={e => nextQuiz()}
-                  disabled={quizState.state !== REVEAL_ANSWER}
-                  style={{ paddingLeft: 30, paddingRight: 30 }}
-                >
-                  NEXT
-                </Button>
-              </Grid>
-            </Grid>
-          )}
-          {quizState.state === END_QUIZ && (
-            <Grid
-              container
-              direction="row"
-              justify="center"
-              alignItems="center"
-            >
-              <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
-                <Button
-                  variant="contained"
-                  color="primary"
-                  onClick={e => retry()}
-                >
-                  RETRY
-                </Button>
-              </Grid>
-              <Grid item xs={6} sm={4} style={{ textAlign: "center" }}>
-                <Button
-                  variant="contained"
-                  color="secondary"
-                  onClick={e => pickNewTeam()}
-                >
-                  NEW TEAM
-                </Button>
-              </Grid>
-            </Grid>
-          )}
-        </Grid>
       </Grid>
       <Popper open={Boolean(anchorEl)} anchorEl={anchorEl}>
         <Typography>{resultText}</Typography>

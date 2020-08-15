@@ -38,7 +38,19 @@ const SelectTeam = ({ data }) => {
         <GenerationsTabs generations={generations} />
       </Grid>
       <Grid item xs={12} md={10} lg={9} xl={8}>
-        <Typography variant="h3">Your pokemons</Typography>
+        <Grid
+          item
+          style={{ textAlign: "center", paddingBottom: 15, paddingTop: 15 }}
+        >
+          <Button
+            variant="contained"
+            onClick={e => onClick(e)}
+            color="primary"
+            disabled={pokemonState.team.length === 0}
+          >
+            START QUIZ
+          </Button>
+        </Grid>
         <PokemonTeam onPokemonClick={removePokemon} />
         {pokemonState.team.length > 0 && (
           <Grid
@@ -47,17 +59,7 @@ const SelectTeam = ({ data }) => {
             justify="center"
             alignItems="center"
             style={{ paddingTop: 25 }}
-          >
-            <Grid item style={{ textAlign: "center" }}>
-              <Button
-                variant="contained"
-                onClick={e => onClick(e)}
-                color="primary"
-              >
-                START QUIZ
-              </Button>
-            </Grid>
-          </Grid>
+          ></Grid>
         )}
       </Grid>
     </Layout>
