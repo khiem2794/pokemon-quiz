@@ -1,11 +1,11 @@
-import axios from "axios"
 import Axios from "axios"
 
 const updatedTeamWithMoves = async team => {
   const updatedTeam = await Promise.all(
     team.map(async pokemon => {
-      return await axios
-        .get("https://pokeapi.co/api/v2/pokemon/" + pokemon.index)
+      return await Axios.get(
+        "https://pokeapi.co/api/v2/pokemon/" + pokemon.index
+      )
         .then(res => {
           return {
             ...pokemon,

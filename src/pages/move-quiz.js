@@ -1,6 +1,6 @@
-import React, { useEffect, useContext, useState } from "react"
+import React, { useContext, useState } from "react"
 import { navigate, graphql } from "gatsby"
-import { generateQuiz } from "../helper/quiz"
+import useFetchQuiz from "../helper/fetch-quiz"
 
 import {
   Grid,
@@ -39,22 +39,16 @@ const MoveQuiz = ({ data }) => {
     answers: [],
     fetchSwitch: 0,
   })
-  const [quizList, setQuizList] = useState([])
-  useEffect(() => {
-    if (team.length > 0) {
-      const fetchQuiz = async () => {
-        const quizList = await generateQuiz(
-          team,
-          data.site.siteMetadata.n1Question,
-          data.site.siteMetadata.n2Question
-        )
-        setQuizList(quizList)
-      }
-      fetchQuiz().then(res => setQuizState({ ...quizState, state: START_QUIZ }))
-    } else {
-      navigate("/")
-    }
-  }, [quizState.fetchSwitch])
+
+  if (team.length === 0 && typeof window !== `undefined`)
+    navigate("/select-team")
+
+  const { quizList, isLoadingQuiz, refetchQuiz } = useFetchQuiz(
+    team,
+    data.site.siteMetadata.n1Question,
+    data.site.siteMetadata.n2Question,
+    () => setQuizState({ ...quizState, state: START_QUIZ })
+  )
 
   const pickPokemon = pokemon => {
     if (quizState.state === START_QUIZ) {
@@ -77,6 +71,7 @@ const MoveQuiz = ({ data }) => {
       answers: [],
       fetchSwitch: quizState.fetchSwitch + 1,
     })
+    refetchQuiz()
   }
 
   const pickNewTeam = () => {
@@ -205,6 +200,7 @@ const MoveQuiz = ({ data }) => {
                         {quizList &&
                           quizList.slice(0, quizList.length / 2).map((q, k) => (
                             <ListItem
+                              key={k}
                               style={{
                                 textAlign: "center",
                                 padding: 0,
@@ -224,6 +220,7 @@ const MoveQuiz = ({ data }) => {
                             .slice(quizList.length / 2, quizList.length)
                             .map((q, k) => (
                               <ListItem
+                                key={k}
                                 style={{
                                   textAlign: "center",
                                   padding: 0,
@@ -250,42 +247,48 @@ const MoveQuiz = ({ data }) => {
         alignItems="center"
         style={{ paddingTop: 25, paddingBottom: 25 }}
       >
-        {(quizState.state === START_QUIZ ||
-          quizState.state === REVEAL_ANSWER) && (
-          <Grid container direction="row" justify="center" alignItems="center">
+        {!isLoadingQuiz &&
+          (quizState.state === START_QUIZ ||
+            quizState.state === REVEAL_ANSWER) && (
             <Grid
-              item
-              xs={6}
-              sm={4}
-              style={{ textAlign: "right", paddingRight: 15 }}
+              container
+              direction="row"
+              justify="center"
+              alignItems="center"
             >
-              <Button
-                variant="contained"
-                color="primary"
-                onClick={e => submitAnswer(e)}
-                disabled={quizState.state === REVEAL_ANSWER}
+              <Grid
+                item
+                xs={6}
+                sm={4}
+                style={{ textAlign: "right", paddingRight: 15 }}
               >
-                ANSWER
-              </Button>
-            </Grid>
-            <Grid
-              item
-              xs={6}
-              sm={4}
-              style={{ textAlign: "left", paddingLeft: 15 }}
-            >
-              <Button
-                variant="contained"
-                color="primary"
-                onClick={e => nextQuiz()}
-                disabled={quizState.state !== REVEAL_ANSWER}
-                style={{ paddingLeft: 30, paddingRight: 30 }}
+                <Button
+                  variant="contained"
+                  color="primary"
+                  onClick={e => submitAnswer(e)}
+                  disabled={quizState.state === REVEAL_ANSWER}
+                >
+                  ANSWER
+                </Button>
+              </Grid>
+              <Grid
+                item
+                xs={6}
+                sm={4}
+                style={{ textAlign: "left", paddingLeft: 15 }}
               >
-                NEXT
-              </Button>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  onClick={e => nextQuiz()}
+                  disabled={quizState.state !== REVEAL_ANSWER}
+                  style={{ paddingLeft: 30, paddingRight: 30 }}
+                >
+                  NEXT
+                </Button>
+              </Grid>
             </Grid>
-          </Grid>
-        )}
+          )}
         {quizState.state === END_QUIZ && (
           <Grid container direction="row" justify="center" alignItems="center">
             <Grid
@@ -325,7 +328,9 @@ const MoveQuiz = ({ data }) => {
           onPokemonClick={pickPokemon}
           answers={quizState.answers.map(e => e.index)}
           correctAnswers={
-            quizState.state === START_QUIZ || quizState.state === REVEAL_ANSWER
+            !isLoadingQuiz &&
+            (quizState.state === START_QUIZ ||
+              quizState.state === REVEAL_ANSWER)
               ? quizList[quizState.quizIndex].answers
               : []
           }
